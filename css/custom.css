@@ -1,0 +1,108 @@
+body{
+	background: 		#2c272d;
+}
+
+/*.nav{
+	position: 			     absolute;
+    right: 				     50px;
+    margin-top: 			 20px;
+
+}
+ .nav ul {
+    list-style-type: 	  	none;
+    margin: 			    0;
+    padding: 			    0;
+    overflow: 			    hidden;
+    background-color: 		#333;
+    top: 				    0;
+    width: 				    100%;
+    position: 			    fixed;
+
+}
+
+.nav li {
+    float: 				    left;
+    border: 			    3px solid white;
+    display:			    inline-block;
+    border-spacing: 		0px;
+    margin-right:		 	-3px;
+    padding-right:			10px;
+    padding-left:		  	10px;
+    padding-top:		  	5px;
+    padding-bottom:	  		5px;
+   
+}
+
+.nav a {
+  font-size: 			10px;
+  font-family: 		    'Open Sans', sans-serif;
+  color: 				black;
+  list-style-type: 	  	none;
+  display: 			    block;
+  text-align: 		    center;
+  padding: 			    14px 16px;
+  text-decoration: 		none;
+
+}*/
+
+.image { 
+   position: 			relative;
+   margin-right: 		50%;
+   display: 			block;
+   margin: 				0;
+}
+
+h2 {
+/*	font-family: 'Patrick Hand SC', cursive;
+*/	font-family: 		'Mr Dafoe', cursive;
+
+	position: 			absolute; 
+   	top: 				400px; 
+  	left: 				0; 
+  	width: 				100%; 
+  	text-align: 		center;
+  	color:				#3f4c58;
+  	letter-spacing: 	0px;
+
+}
+
+h1 {
+	font-family: 		'Oswald', sans-serif;
+	position: 			absolute; 
+   	top: 				400px; 
+  	left: 				0; 
+  	width: 				100%; 
+  	text-align: 		center;
+  	color:				#3f4c58;
+  	letter-spacing: 	5px;
+}
+
+.c2 h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 			20px;
+	text-align: 		left;
+	background: 		black;
+	margin-top: 		0px;
+	color:				#cccccc;
+  	letter-spacing: 	2px;
+  	background: 		#cccccc;
+  	color:				green;
+  	padding:			45px;
+
+}
+
+.c2 {
+	background: 		#cccccc;
+	margin: 			0px;
+}
+
+
+#info {
+	font-family: 'Roboto Slab', serif;
+
+}
+
+#info div{
+	background-image:	url(images/prison.jpg);
+}
+/* http://www.color-hex.com/color-palette/22754*/
