@@ -11,9 +11,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-
-
-
+	<script src="js/jquery.2.2.4.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/custom.js"></script>
 
 
 
@@ -43,22 +43,14 @@
 			<li><a><strong>RESULTS</strong></a></li>
 			<li><a><strong>RECOMMENDATIONS</strong></a></li>
 
-			<li><a id="#menu" ><strong>REPORTS</strong> </a>
-
-				<li id="list"><a style="padding-left: 30px;" href="">The Court</a></li>
-				<li id="list"><a style="padding-left: 30px;" href="">The Prison</a></li>
-				<li id="list"><a style="padding-left: 30px;" href="">The Vacuum</a></li>
-				<li id="list"><a style="padding-left: 30px;" href="">The Abuse</a>
+			<li><a><strong>REPORTS</strong> </a></li>
+			<div class="show">
+				<li><a style="padding-left: 30px;" href="">The Court</a></li>
+				<li><a style="padding-left: 30px;" href="">The Prison</a></li>
+				<li><a style="padding-left: 30px;" href="">The Vacuum</a></li>
+				<li><a style="padding-left: 30px;" href="">The Abuse</a>
 				</li>
-			</li>
-
-			<script>
-		  	$(document).ready(function(){
-		    $("#menu").click(function(){
-		        $("#list").toggle();
-		    });
-			});
-			</script>
+			</div>
 
 			<li><a href="Stories.html"><strong>STORIES</strong></a></li>
 				<!-- <li><a style="padding-left: 30px;"><strong>THE COURT HAS ABDICATED THEIR RESPONSIBILITY TO ETOWAH DETAINEES.</strong></a></li>
@@ -90,10 +82,10 @@
   	</div>
 </div>
 
-<div style="background: #cccccc;" class="c2">
+<div style="background: #2c272d; height: 300px;" class="c2">
 	<div style="padding-top: 45px;" class="row">
 	
-		<div style="background: white;" class="col-md-4">
+		<div style="background: white; height: 200px;" class="col-md-4">
 
   		<h3>Habeas Corpus</h3>
 
@@ -101,29 +93,24 @@
 
 		</div>
 
-		<div class="col-md-4">
+		<div style="background: #bbbbbb; height: 200px;" class="col-md-4">
  
 		<h3>Importance</h3>
 		<p>The writ of habeas corpus lies at the heart of society’s protection against the illegal deprivation of liberty by a government. </p>
 
 		</div>
 
-		<div class="col-md-4">
+		<div style="background: #aaaaaa; height: 200px;"class="col-md-4">
 
 		<h3>Fame</h3>
-		<p>The writ was most famously used in 1772 by Lord Mansfield to liberate a Jamaican slave who was forcibly brought to the United Kingdom, paving a legal path to the abolition of slavery.[1] </p>
+		<p>The writ was most famously used in 1772 by Lord Mansfield to liberate a Jamaican slave who was forcibly brought to the United Kingdom, paving a legal path to the abolition of slavery.<a class="clickme">[1]</a></p>
 
-		<hr>
-		<p style="font-size: 8px;">[1] Sommerset v. Stewart</p>
+		<div class="footnote">[1] Sommerset v. Stewart</div>
 
-		</div>
+		
+	    </div>
+	    </div>
+	    </div>
 
-  		</div>
-  	</div>
-</div>
-
-	<script src="js/jquery.2.2.4.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/custom.js"></script>
 </body>
 </html>
