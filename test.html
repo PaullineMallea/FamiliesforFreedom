@@ -15,21 +15,51 @@
 	<script src="js/bootstrap.js"></script>
 	<script src="js/custom.js"></script>
 
+    <style>
+    
+    </style>
 
 
 </head>
 <body>
+<h2>Accordion</h2>
 
-<div style="background: white;" class="container-fluid">
+<button class="accordion">INTRODUCTION</button>
 
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>
+<button class="accordion">KEY FINDINGS</button>
+
+<button class="accordion">RESULTS</button>
+
+<button class="accordion">RECOMMENDATIONS</button>
+
+<button class="accordion">RESULTS</button>
+
+<button class="accordion">REPORTS</button>
+
+<ul class="panel">
+
+<li><a href="">The Court</a></li>
+<li><a href="">The Prison</a></li>
+<li><a href="">The Vacuum</a></li>
+<li><a href="">The Abuse</a> </li>
+ 
+</ul>
+
+<button class="accordion" href="Stories.html">STORIES
+</button>
+
+<script type="text/javascript">
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
 
 </body>
 </html>
