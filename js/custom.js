@@ -13,8 +13,6 @@ $(document).ready(function(){
 		    // Animation complete.
 		  }); 
 
-	
-
 	// end of footnote function   ------------------------------------------------
 
 

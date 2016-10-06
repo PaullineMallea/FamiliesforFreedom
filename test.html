@@ -22,44 +22,93 @@
 
 </head>
 <body>
-<h2>Accordion</h2>
+<!-- Logo section below -->
 
-<button class="accordion">INTRODUCTION</button>
 
-<button class="accordion">KEY FINDINGS</button>
+<div style="z-index: 1000;">
+  <div class="row" style="">
+  <div class="col-md-4" >
+  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
+  </div>
 
-<button class="accordion">RESULTS</button>
+<!-- Logo section ^ above -->
 
-<button class="accordion">RECOMMENDATIONS</button>
+<!-- Menu bar below  -->
 
-<button class="accordion">RESULTS</button>
+    <div class="col-md-6"></div>
 
-<button class="accordion">REPORTS</button>
+    <div class="col-md-2">
+      <div class="dropdown" style="float: right;">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #c5c5c5; border: #c5c5c5; outline: none; margin-top: 20px; margin-right: 40px;">
 
-<ul class="panel">
+          <img src="images/nav.png" style="width: 40px;">
+            <span class="caret"></span>
+          </button>
 
-<li><a href="">The Court</a></li>
-<li><a href="">The Prison</a></li>
-<li><a href="">The Vacuum</a></li>
-<li><a href="">The Abuse</a> </li>
- 
-</ul>
+            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
 
-<button class="accordion" href="Stories.html">STORIES
-</button>
+     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
 
-<script type="text/javascript">
+      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+      <li><a><strong>KEY FINDINGS</strong></a></li>
+      <li><a><strong>RESULTS</strong></a></li>
+      <li><a><strong>RECOMMENDATIONS</strong></a></li>
 
-var acc = document.getElementsByClassName("accordion");
-var i;
+      <li class="expandable"><a><strong>REPORTS</strong> </a>
+      <ul style="display:none;">
+        <li><a href="">The Court</a></li>
+        <li><a href="">The Prison</a></li>
+        <li><a href="">The Vacuum</a></li>
+        <li><a href="">The Abuse</a>
+        </li>
+      </ul>
+      </li>
+  
+      <script type="text/javascript">
+      $('li.expandable').click(function() {
+        $(this).children('ul').toggle();
+        return false;
+      });
+      </script>
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
-  }
-}
-</script>
+      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
+<!-- Menu bar above ^  -->
+
+
+<div style="background: #cccccc; width: 100%;" class="c4">
+	<div class="row">
+  		<div class="col-md-6">
+
+  		<h3>About Families for Freedom</h3>
+
+		<p>Founded in September 2002, Families for Freedom is a New York membership based human rights organization by and for families facing and fighting deportation. We are current and former detainees, deportees and their loved ones. We come from dozens of countries, across continents. FFF seeks to repeal the laws that are tearing apart our homes and neighborhoods; and to build the power of immigrant communities as communities of color, to provide a guiding voice in the growing movement for immigrant rights as human rights. FFF has evolved into an organizing center against deportation. We are source of support, education, and campaigns for directly affected families and communities -- locally and nationally.</p>
+  		</div>
+
+  	
+  		<div class="col-md-6">
+
+  		<h3>About NYU Law</h3>
+
+		<p>The Immigrant Rights Clinic at New York University School of Law is a leading institution in both local and national struggles for immigrant rights. Its students engage in direct legal representation of immigrants and community organizations in litigation at the agency, federal court, and Supreme Court level, and in immigrant rights campaigns at the local, state, and national level.<a class="clickme">[1]</a></p>
+
+			<span class="footnote">[1] The name of the Law School is provided solely for purposes of identification of the clinic’s affiliation. The views expressed in this report should not be regarded as the position of the Law School.</span>
+    	</div>
+
+<!-- script for footnote -->
+	<script>
+		$( ".clickme" ).click(function() {
+			  $( ".footnote" ).toggle(function() {
+			    // Animation complete.
+			  }); 
+			 }); 
+	</script>
+
+  </div>
+</div>
 </body>
 </html>
