@@ -127,6 +127,9 @@ p {
 
 .c5 p {
   margin-top:     20px; 
+  font-family:    'Lato', sans-serif;
+  font-size:      15px;
+  text-align:     left;
 }
 
 #justify p {
@@ -201,6 +204,7 @@ padding: 50px;
   font-family:    'Lato', sans-serif;
   font-size:      15px;
   padding:        10px;
+  text-align:     left;
 
 
 }
