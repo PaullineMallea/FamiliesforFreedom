@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title> App Boiler Plate </title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/custom.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title> App Boiler Plate </title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <script src="js/jquery.2.2.4.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+    <style>
+    
+    </style>
 
 
 </head>
 <body>
-
 <!-- Logo section below -->
 
 
 <div style="z-index: 1000;">
-  <div class="row" style="background: #c5c5c5 ">
+  <div class="row" style="background: #c5c5c5;">
   <div class="col-md-4" >
   <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
   </div>
@@ -30,9 +36,9 @@
 
 <!-- Menu bar below  -->
 
-    <div class="col-md-6"></div>
+    <div class="col-md-5"></div>
 
-    <div class="col-md-2">
+    <div class="col-md-3">
       <div class="dropdown" style="float: right;">
           <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #c5c5c5; border: #c5c5c5; outline: none; margin-top: 20px; margin-right: 40px;">
 
@@ -49,21 +55,31 @@
       <li><a href="results.html"><strong>RESULTS</strong></a></li>
       <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
 
-      <li class="expandable"><a href="reports.html"><strong>REPORTS</strong> </a>
-      <ul style="display:none;">
-        <li><a href="court.html">The Court</a></li>
-        <li><a href="prison.html">The Prison</a></li>
-        <li><a href="vacuum.html">The Vacuum</a></li>
-        <li><a href="abuse.html">The Abuse</a>
+              <li class="dropdown-submenu" class=>
+                <a tabindex="-1" href="#"><strong>REPORTS</strong></a>
+                <ul class="dropdown-menu" style="">
+<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
+ -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
+                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
+                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
+                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
+                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+                  </ul>
         </li>
-      </ul>
-      </li>
   
       <script type="text/javascript">
-      $('li.expandable').click(function() {
-        $(this).children('ul').toggle();
-        return false;
-      });
+      // $('li.expandable').click(function() {
+      //   $(this).children('ul').toggle();
+      //   return false;
+      // });
+
+$(document).ready(function(){
+$('.dropdown-submenu>a').unbind('click').click(function(e){
+$(this).next('ul').toggle();
+e.stopPropagation();
+e.preventDefault();
+});
+});
       </script>
 
       <li><a href="Stories.html"><strong>STORIES</strong></a></li>
@@ -74,59 +90,52 @@
 
 <!-- Menu bar above ^  -->
 
-<div class="c3">
-	<div class="row">
-  		<div class="col-md-12">
+<div class="c3" >
+  <div class="row">
+      <div class="col-md-12">
 
-  		<div><img src="images/Prison_Pod.png" style="width:100%; position: fixed; z-index: -200; margin-top:-120px;">
+      <div><img src="images/Prison_Pod.png" style="width:100%; position: fixed; z-index: -200; margin-top:-120px;">
 
-  		<h4 style="padding-top: 50px;"> Stories </h4>
+      <h4 style="padding-top: 50px;"> Stories </h4>
 
-  		<div id="storyOne" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 190px; position: fixed;"></div>
+      <div id="storyOne" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 190px; position: fixed;"></div>
 
-	  		<style type="text/css">
-	  		#storyOne:hover { 
-	    	background-color: yellow; 
-	    	opacity: .2;
-			}
-	  		</style>
+        <style type="text/css">
+        #storyOne:hover { 
+        background-color: yellow; 
+        opacity: .2;
+      }
+        </style>
 
 
-  		<div id="storyTwo" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 448px; position: fixed;"></div>
+      <div id="storyTwo" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 448px; position: fixed;"></div>
 
-	  		<style type="text/css">
-	  		#storyTwo:hover { 
-	    	background-color: red;
-	    	opacity: .2;
-			}
-	  		</style>
+        <style type="text/css">
+        #storyTwo:hover { 
+        background-color: red;
+        opacity: .2;
+      }
+        </style>
 
-	  	<div id="storyThree" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 713px; position: fixed;"></div>
+      <div id="storyThree" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 713px; position: fixed;"></div>
 
-	  		<style type="text/css">
-	  		#storyThree:hover { 
-	    	background-color: blue;
-	    	opacity: .2;
-			}
-	  		</style>
+        <style type="text/css">
+        #storyThree:hover { 
+        background-color: blue;
+        opacity: .2;
+      }
+        </style>
 
-	  	<div id="storyFour" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 978px; position: fixed;"></div>
+      <div id="storyFour" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 978px; position: fixed;"></div>
 
-	  		<style type="text/css">
-	  		#storyFour:hover { 
-	    	background-color: green;
-	    	opacity: .2;
-			}
-	  		</style>
-	  	<div>
-  			
-  	</div>
+        <style type="text/css">
+        #storyFour:hover { 
+        background-color: green;
+        opacity: .2;
+      }
+        </style>
+      <div>
+        
+    </div>
   </div>
-</div>
-
-
-	<script src="js/jquery.2.2.4.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/custom.js"></script>
-</body>
-</html>
+</div

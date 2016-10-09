@@ -36,9 +36,9 @@
 
 <!-- Menu bar below  -->
 
-    <div class="col-md-6"></div>
+    <div class="col-md-5"></div>
 
-    <div class="col-md-2">
+    <div class="col-md-3">
       <div class="dropdown" style="float: right;">
           <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #c5c5c5; border: #c5c5c5; outline: none; margin-top: 20px; margin-right: 40px;">
 
@@ -55,21 +55,31 @@
       <li><a href="results.html"><strong>RESULTS</strong></a></li>
       <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
 
-      <li class="expandable"><a href="reports.html"><strong>REPORTS</strong> </a>
-      <ul style="display:none;">
-        <li><a href="court.html">The Court</a></li>
-        <li><a href="prison.html">The Prison</a></li>
-        <li><a href="vacuum.html">The Vacuum</a></li>
-        <li><a href="abuse.html">The Abuse</a>
+              <li class="dropdown-submenu" class=>
+                <a tabindex="-1" href="#"><strong>REPORTS</strong></a>
+                <ul class="dropdown-menu" style="">
+<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
+ -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
+                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
+                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
+                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
+                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+                  </ul>
         </li>
-      </ul>
-      </li>
   
       <script type="text/javascript">
-      $('li.expandable').click(function() {
-        $(this).children('ul').toggle();
-        return false;
-      });
+      // $('li.expandable').click(function() {
+      //   $(this).children('ul').toggle();
+      //   return false;
+      // });
+
+$(document).ready(function(){
+$('.dropdown-submenu>a').unbind('click').click(function(e){
+$(this).next('ul').toggle();
+e.stopPropagation();
+e.preventDefault();
+});
+});
       </script>
 
       <li><a href="Stories.html"><strong>STORIES</strong></a></li>
@@ -77,9 +87,9 @@
     </div>
   </div>
 </div>
-</div>
 
 <!-- Menu bar above ^  -->
+
 <div style="background: #c5c5c5; width: 100%;" class="c4">
   <div class="row">
   <div class="col-md-12">

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> App Boiler Plate </title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <script src="js/jquery.2.2.4.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+    <style>
+    
+    </style>
+
+
+</head>
+<body>
+<!-- Logo section below -->
+
+
+<div style="z-index: 1000;">
+  <div class="row" style="">
+  <div class="col-md-4" >
+  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
+  </div>
+
+<!-- Logo section ^ above -->
+
+<!-- Menu bar below  -->
+
+    <div class="col-md-5"></div>
+
+    <div class="col-md-3">
+      <div class="dropdown" style="float: right;">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #c5c5c5; border: #c5c5c5; outline: none; margin-top: 20px; margin-right: 40px;">
+
+          <img src="images/nav.png" style="width: 40px;">
+            <span class="caret"></span>
+          </button>
+
+            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
+
+     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
+
+      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+      <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
+      <li><a href="results.html"><strong>RESULTS</strong></a></li>
+      <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
+
+              <li class="dropdown-submenu" class=>
+                <a tabindex="-1" href="#"><strong>REPORTS</strong></a>
+                <ul class="dropdown-menu" style="">
+<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
+ -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
+                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
+                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
+                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
+                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+                  </ul>
+        </li>
+  
+      <script type="text/javascript">
+      // $('li.expandable').click(function() {
+      //   $(this).children('ul').toggle();
+      //   return false;
+      // });
+
+$(document).ready(function(){
+$('.dropdown-submenu>a').unbind('click').click(function(e){
+$(this).next('ul').toggle();
+e.stopPropagation();
+e.preventDefault();
+});
+});
+      </script>
+
+      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Menu bar above ^  -->
+
+<!-- overlay below -->
+
+<div style="background: #aaaaaa; width: 100%;" class="c5">
+  <div class="row">
+
+  <div class="col-md-9">
+  </div>
+
+    <div class="col-md-3">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="justify" style="padding:40px;">
+          
+          <h4 style="margin-top: -100px; margin-bottom: 50px;">Cesar</h4>
+
+          <div style=" width: 100%;" class="c5">
+
+          <div class="row">
+          <div class="col-md-6">
+         
+
+          <p>Cesar arrived in the United States in November of 2012 as an asylum seeker from Eritrea. After his application for asylum was denied, he was detained by ICE. Cesar had no criminal convictions and had never served any time in prison. In Cesar’s habeas corpus petition, he contested ICE’s allegations that he was failing to comply by detailing his personal attempts to secure a travel document from the Eritrean consulate, by making phone calls and supplying ICE with all of his documents. His habeas corpus petition alleges that the Consulate informed him on April 15th, 2014 that they did not recognize him as a citizen of Eritrea, and that they would not issue a travel document. His habeas corpus petition further alleges that ICE informed him that the El Salvadorian consulate would take care of his travel documents. Cesar states clearly in his habeas corpus petition that he is obviously not from El Salvador and should not be deported to that country.</p> 
+
+          <p>Twenty-two days after Mr. Cesar filed his habeas corpus petition, the court ordered the ICE to respond within twenty days. They did not order any specific response in relation to the allegations about ICE securing travel documents and the removal attempts to El Salvador. Nine days before a response was due, ICE requested an extension of time, which the court granted on the same day. Sixteen days later ICE took Cesar out of Etowah after more than a year and a half in detention. The court never made findings on whether or not ICE was attempting to remove Cesar to El Salvador. </p>  
+
+          </div>
+          
+          <div class="col-md-6">
+
+          <p>Machar was born in South Sudan in 1968 and came to the US as a refugee in 2001. He has a wife and six children who are all either Legal Permanent Residents or U.S. Citizens. Machar first entered ICE detention in July 2007, but was released on an order of supervision in May 2008. In June 2013, he was unexpectedly re-detained. At the time of filing his habeas corpus petition, Machar had already been detained in Etowah for almost a whole year. ICE’s argument for continuing to detain Machar was based on his convictions prior to 2007 when he was first detained,  and therefore was considered a danger to the community. However, ICE had previously released him indicating that despite the prior convictions they had not found him to be a danger to the community.</p>
+
+          <p>ICE acknowledged that Machar was a citizen and native of South Sudan and they discussed attempts to secure documents from the Consulate of South Sudan in Washington D.C.  In their final review dated January 16, 2015, ICE stated that they were working with the government of Sudan to secure travel documents for his removal. Machar expressed fear and concerns about being deported to Sudan, a country that he is not from and that has been in armed conflict with South Sudan. The court never ordered a hearing and failed to acknowledge these fears about being deported to the wrong country. The Court also did not require ICE to provide any more details about the process of securing travel documents from South Sudan.</p>
+          </div>
+          </div>
+          </div>
+
+          <div style=" width: 100%;" class="c5">
+
+          <div class="row">
+          <div class="col-md-6">
+
+          <hr>
+
+          <h3 id="uppercase">The nORTHERN dISTRICT OF ALABAMA has Failed to Adhere to the Protections Established BY THE SUPREME COURT</h3>
+
+          <p>The Supreme Court clearly states that detention while awaiting removal becomes presumptively unreasonable after 180 days, and that courts must inquire into the “reasonable foreseeability” of a detainee’s removal after this 180-day point. The decision requires that Courts imbue some substantive meaning to “reasonable foreseeability”; that they, over time, generate standards as to what circumstances lead to a detainee’s release under Zadvydas and what circumstances justify continued detention.</p>
+
+
+          <p>In the Northern District of Alabama, detainees faced a huge range of circumstances - between 182 days and 1,122 days of detention while awaiting removal, some involving concrete proof that no travel document would be forthcoming, and some involving deceit or potential fraud on the part of ICE.  Many habeas petitions filed in the NDAL were dismissed as moot without receiving any judicial review over the factual disputes between detainees and ICE. In every case that was not mooted out, the court found that the removal of detainees was forseeable and therefore no one should be released. In most instances, the court simply waited for ICE to take the person out of Etowah; in rare cases, they published opinions articulating their denial. In one case, where the detainee alleged that the travel documents ICE provided him were fraudulent, the court published a rare opinion stating that “regardless of whether Mr. N’s signature on the travel document is a forgery, Mr. N fails to state a claim for relief under Zadvydas because he “has not provided evidence of a good reason to believe that there is no significant likelihood of removal in the reasonably foreseeable future.” Without any guidance from the court as to what an adequate showing of “not reasonably foreseeable” might look like, detainees – who are filing their habeas corpus petitions without a lawyer or legal expertise - have no way of knowing whether their claims are sufficiently stated. They have no notice as to what a Zadvydas showing requires and now way to ensure that they are framing their claims appropriately for their release. </p>
+
+
+          <p>The Supreme Court explicitly cautioned against courts deferring to ICE’s reasoning as truth - indeed, they equated mere acceptance of ICE’s rationale as an abdication of authority. Thus in the context of what the Supreme Court demanded in 2001, the Northern District of Alabama’s behavior is a total abdication of their constitutional responsibility as the primary protector of individual liberty interests in Etowah.</p> 
+
+          </div>
+
+          <div class="col-md-6">
+
+          <h6 style="color: white; font-size: 40px;">In the Northern District of Alabama, detainees faced a huge range of circumstances - between <span style="color: #f4b642;">182 days</span> and <span style="color: #f4b642;">1,122 days</span> of detention while awaiting removal, some involving concrete proof that no travel document would be forthcoming, and some involving deceit or potential fraud on the part of ICE.</h6> 
+
+          </div>
+          </div>
+          </div>
+
+ </div>
+</div>
+        
+
+
+
+      <div style="cursor: pointer; position: relative; margin-left: 180px; margin-top: 20px;" onclick="openNav()"><img src="images/Folder.svg.png" style="width: 50px; margin-left: 20px"></div>
+
+
+      <span style="font-size:12px; cursor: pointer; margin-left: 190px;" onclick="openNav()">Case Study</span>
+
+
+
+      <script>
+      function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- overlay of case study above -->
+
+<div style="background: #aaaaaa; width: 100%;" class="c5">
+	<div class="row">
+
+  	<div class="col-md-12">
+    <h4 style="padding-top: 50px; padding-bottom: 50px">The Courts</h4>  
+
+  	<h6>THE SUPREME COURT OF THE UNITED STATES REQUIRES LIMITS</h6> 
+    <h3>to how long a person can be detained after they have been ordered deported</h3>
+    
+    </div>
+  </div>
+
+    <div class="row">
+    <div class="col-md-6" id="justify">
+
+    <p>Fifteen years ago the Supreme Court of the United States - the highest court in the country - reminded federal courts of their constitutional duty to protect the liberty of detained immigrants. The Supreme Court’s ruling addressed immigration detention, a practice that was on the rise. In 1996, Congress amended the immigration laws to increase the use of immigration detention to hold immigrants who had been ordered deported while their removal was pending. The consequences of the rise of incarceration for immigrants was extreme – detainees were deprived of their liberty, detained far from their families and communities, and held in many cases indefinitely while the government attempted to secure an entry document for their deportation to another country. The Supreme Court responded on June 28th, 2001, in Zadvydas v. Davis – urging courts not to “[abdicate] their legal responsibility,” and providing courts with vital criteria through which to judge the detention of immigrants while the government is in theory attempting to secure documents for a detainee’s entry into the receiving country. The release of this report marks the 15th anniversary of the Supreme Court ruling and chronicles its legacy, in one detention center in particular; Etowah County Detention Center in Gadsden, Alabama. </p>
+
+
+    <p> In Zadvydas, the Supreme Court recognized that detainees awaiting deportation were disappearing into a legal black hole and that habeas petitions provided the only path out. Because the Immigration and Nationality Act (§241(6)) allows the government to detain immigrants who have not yet been removed after 90 days, prior to the Supreme Court’s decision in Zadvydas, detaining individuals indefinitely was the norm. 
+    In response to the significant constitutional questions raised by the possibility of indefinite detention, the Supreme Court reminded courts of their constitutional duty to take seriously the habeas petitions of detainees who had been ordered deported. The Court instructed federal courts to ask whether a detainee’s removal was not reasonably foreseeable, and therefore, indefinite. This question of reasonable foreseeability is precisely the kind of factual issue that federal courts are supposed to investigate. The Supreme Court understood that federal courts take into account the immigration-related expertise of immigration enforcement agencies when determining the reasonable foreseeability of deportation, but warned courts not to abdicate their legal responsibility to review the lawfulness of an immigrant’s detention.</p>
+
+    </div>
+
+
+    <div class="col-md-6" id="justify">
+
+    <p>Before the Supreme Court got involved, the government already had 90 days to remove an immigrant who was detained. The Supreme Court, recognizing that securing an entry document for detainees often took longer (for reasons discussed below), gave the government another 90 days before the detention would become ‘presumptively unreasonable.’ After 180 days, in other words, an immigrant could file a habeas petition challenging continued detention, and the government would bear the burden of proving that the immigrant’s removal was reasonably foreseeable. If a judge was satisfied by the government’s showing, they could deny the habeas corpus petition and allow the immigrant’s detention to continue. If they found that the immigrant’s removal was not reasonably foreseeable, the court instructed them to grant release..</p> 
+
+    <p>Immigration and Customs Enforcement (ICE) is required to obtain valid travel documents from the government of the receiving country. While immigrants are required to cooperate with ICE to whatever extent possible while they are detained, ICE is ultimately responsible for following up with consulates and embassies to ensure that the documents are valid and secured.  These processes are, in theory, designed to “ensure that individuals are deported to countries where they have recognized status,” upon arrival and to ensure compliance with foreign and international law. Travel documents to the receiving country should thus be viewed as entry documents that grant the person access to rights and services.  The Supreme Court’s ruling in Zadvydas recognizes the need for oversight over the process of securing travel documents, particularly when an immigrant has been held in detention for longer than six months. 
+    </p>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<div style="background: #aaaaaa; width: 100%;" class="c5">
+  <div class="row">
+  
+    <div class="col-md-12">
+  
+  <h6>THE COURT HAS ABDICATED ITS CONSTITUTIONAL RESPONSIBILITY</h6> 
+
+  <h3>as the primary protector of individual liberty in Etowah</h3>
+  </div>
+  </div>
+
+    <div class="row">
+    <div class="col-md-6" id="justify">
+
+		<p>Fifteen years ago the Supreme Court of the United States - the highest court in the country - reminded federal courts of their constitutional duty to protect the liberty of detained immigrants. The Supreme Court’s ruling addressed immigration detention, a practice that was on the rise. In 1996, Congress amended the immigration laws to increase the use of immigration detention to hold immigrants who had been ordered deported while their removal was pending. The consequences of the rise of incarceration for immigrants was extreme – detainees were deprived of their liberty, detained far from their families and communities, and held in many cases indefinitely while the government attempted to secure an entry document for their deportation to another country. The Supreme Court responded on June 28th, 2001, in Zadvydas v. Davis – urging courts not to “[abdicate] their legal responsibility,” and providing courts with vital criteria through which to judge the detention of immigrants while the government is in theory attempting to secure documents for a detainee’s entry into the receiving country. The release of this report marks the 15th anniversary of the Supreme Court ruling and chronicles its legacy, in one detention center in particular; Etowah County Detention Center in Gadsden, Alabama.</p> 
+
+   <p>In Zadvydas, the Supreme Court recognized that detainees awaiting deportation were disappearing into a legal black hole and that habeas petitions provided the only path out. Because the Immigration and Nationality Act (§241(6)) allows the government to detain immigrants who have not yet been removed after 90 days, prior to the Supreme Court’s decision in Zadvydas, detaining individuals indefinitely was the norm.</p> 
+
+    <p>In response to the significant constitutional questions raised by the possibility of indefinite detention, the Supreme Court reminded courts of their constitutional duty to take seriously the habeas petitions of detainees who had been ordered deported. The Court instructed federal courts to ask whether a detainee’s removal was not reasonably foreseeable, and therefore, indefinite. This question of reasonable foreseeability is precisely the kind of factual issue that federal courts are supposed to investigate. The Supreme Court understood that federal courts take into account the immigration-related expertise of immigration enforcement agencies when determining the reasonable foreseeability of deportation, but warned courts not to abdicate their legal responsibility to review the lawfulness of an immigrant’s detention.</p>
+    
+    </div>
+
+    <div class="col-md-6" id="justify">
+
+
+    <p>Before the Supreme Court got involved, the government already had 90 days to remove an immigrant who was detained. The Supreme Court, recognizing that securing an entry document for detainees often took longer (for reasons discussed below), gave the government another 90 days before the detention would become ‘presumptively unreasonable.’ After 180 days, in other words, an immigrant could file a habeas petition challenging continued detention, and the government would bear the burden of proving that the immigrant’s removal was reasonably foreseeable. If a judge was satisfied by the government’s showing, they could deny the habeas corpus petition and allow the immigrant’s detention to continue. If they found that the immigrant’s removal was not reasonably foreseeable, the court instructed them to grant release.. </p>
+
+    <p>Immigration and Customs Enforcement (ICE) is required to obtain valid travel documents from the government of the receiving country. While immigrants are required to cooperate with ICE to whatever extent possible while they are detained, ICE is ultimately responsible for following up with consulates and embassies to ensure that the documents are valid and secured.  These processes are, in theory, designed to “ensure that individuals are deported to countries where they have recognized status,” upon arrival and to ensure compliance with foreign and international law. Travel documents to the receiving country should thus be viewed as entry documents that grant the person access to rights and services.  The Supreme Court’s ruling in Zadvydas recognizes the need for oversight over the process of securing travel documents, particularly when an immigrant has been held in detention for longer than six months.</p>
+  </div>
+  </div>
+</div>
+
+
+
+<div style="background: #aaaaaa; width: 100%;" class="c5">
+  <div class="row">
+  
+    <div class="col-md-12">
+
+  <h6>THE COURT HAS ABDICATED ITS CONSTITUTIONAL RESPONSIBILITY</h6> 
+
+  <h3>as the primary protector of individual liberty in Etowah</h3> 
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col-md-6" id="justify">
+
+  <p>Judges in the Northern District of Alabama have abdicated their responsibility to rigorously oversee the detention of people awaiting deportation. In Etowah, the overwhelming majority - 94.2% - of detainees did not have a lawyer, only underscoring the need for meaningful engagement by the court. The Court failed to adhere to the guidelines of the habeas corpus statute – they provided ICE with unreasonably long periods to respond to habeas corpus petitions, they summarily granted every extension sought by ICE and they never held a single evidentiary hearing.</p>  
+
+
+  <p>The court did not grant a single habeas corpus petition in the five-year period analyzed in this report. In many cases, ICE had taken the individual out of Etowah before the court decided on the habeas corpus petition and in other cases, the petitions were summarily denied. The Court had numerous opportunities to fulfill its constitutional duty. In reality, however, the Courts have failed to intervene - to ask questions about allegations of fraudulent removal attsempts and travel documents or to resolve factual disputes as to who is the source of delay and obstruction in procuring travel documents. The result leaves ICE to abuse its power and inflict harm on detainees - results that will be explored in depth in the following two sections - but also abdicates the Court’s constitutional responsibility: to issue guidance on the meaning of the law.</p>
+
+  <hr>
+
+  <h3 id="uppercase" style="font-size: 15px;">The Court has failed to comply with the habeas law</h3>
+
+  <p>As discussed in the proceeding section, under the constitutional statue (28 U.S.C. §2243), once a habeas petition has been filed, courts are required to quickly issue an order to show cause directed at the person in custody. Despite the fact that the statute calls for a response within three days (and sets a maximum of 23 days), in 100% of the cases filed in the last 5 years, the court granted ICE thirty days to respond. This thirty-day period is longer than the maximum amount of time allowed under the constitutional statute, even in exceptional circumstances. Furthermore, the court in the Northern District of Alabama granted every extension requested by ICE/DHS without any explanation or any acknowledgement for the added detention that the person faced as a result.</p>
+
+  </div>
+  <div class="col-md-6" id="justify">
+
+
+  <p>The court in the Northern District of Alabama is not fulfilling its “legal responsibility to review the lawfulness of an alien’s continued detention.” By failing to adjudicate habeas corpus petitions with the expediency required by the law, the Court prolongs the deprivation of liberty faced by the detainee. Despite the broad range of factual disputes present in the hundreds of habeas petitions filed between April 30, 2010 and September 8, 2015, the Court only ordered evidentiary hearings in four cases.  Not a single one of these hearings was actually held and thus the Court did not hold a single hearing during this five-year period. In failing to even schedule hearings where factual disputes could be independently investigated, the Court effectively deferred to ICE’s renditions of the facts and failed to allow people to exercise their right to appear in court to advocate for their release. Even in cases where detainees alleged that ICE was attempting to remove them with fraudulent travel documents or to countries where the detainee had never previously set foot, the court failed to inquire further, as is their constitutional duty.</p>
+
+  </div>
+  </div>
+</div>
+
+
+<!--     <a class="clickme"><sup>[1]</sup></a></p>
+ -->
+			<span class="footnote">[1] The name of the Law School is provided solely for purposes of identification of the clinic’s affiliation. The views expressed in this report should not be regarded as the position of the Law School.</span>
+    	</div>
+
+<!-- script for footnote -->
+	<script>
+		$( ".clickme" ).click(function() {
+			  $( ".footnote" ).toggle(function() {
+			    // Animation complete.
+			  }); 
+			 }); 
+	</script>
+
+  <!-- overlay slider -->
+
+
+
+  </div>
+</div>
+</body>
+</html>
