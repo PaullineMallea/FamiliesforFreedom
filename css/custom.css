@@ -1,10 +1,10 @@
 body{
-	background: 		#c5c5c5;
+	background: 		#aaaaaa;
 
 }
 
 button {
-  background: #FFA500;
+  /*background: #c5c5c5;*/
   opacity:    ;
   color:      #FFA500;
   outline:    none;
@@ -54,25 +54,40 @@ h2 {
 }
 
 
-h3 {
-  font-family:   'Roboto Slab', serif;
-  letter-spacing: 2px;
+
+h4 {
+  font-family:        'Oswald', sans-serif;  font-size:        100px;
+  color:            black;
+  text-align:       center;
+  letter-spacing:   4px;
+  position:         relative;
+  text-transform: uppercase;
 
 }
 
+#thick {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 8px solid white;
+    padding: 20px; 
+    margin-top: 20px;
+}
 
-h4 {
-  font-family:      'Rock Salt', cursive;
+
+#font {
+  font-family:     'Rock Salt', cursive;
   font-size:        100px;
   color:            white;
   text-align:       center;
   letter-spacing:   4px;
   position:         relative;
+  text-align:       center;
 }
 
-
 .p {
-    font-family:  'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+
     text-align: justify; 
     text-justify: inter-word;
     padding:  60px;
@@ -80,40 +95,54 @@ h4 {
     margin: 20px;
 }
 
+.c1 p {
+
+    font-family: 'Roboto', sans-serif;
+    padding-top:    20px;
+    text-align:     ;
+    font-size:      20px; 
+    color:          black;
+    margin-left:     15px;
+
+}
 
 .c2{
   padding-left:     45px;
   padding-right:    45px;
+  font-family:      'Roboto', sans-serif;
+
+
 
 }
 
 
 .c2 h3 {
-  font-family:   'Roboto Slab', serif;
+  font-family:    'Oswald', sans-serif;
   font-size:      20px;
   text-align:     left;
   margin-top:     0px;
   letter-spacing: 2px;
   padding:        20px 0px 5px 20px;
-  color:          white;
+  color:          black;
 
 
 }
 
 .c2 p {
-  font-family:    'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 	font-size: 			15px;
 	margin-top: 		0px;
   letter-spacing: 1px;
   padding:        0px 20px 20px 20px;
-  color:          white;
+  color:          black;
 
 
 
 }
 
 .c4 h3{
-  font-family:   'Roboto Slab', serif;
+  font-family:        'Oswald', sans-serif;
   font-size:      20px;
   text-align:     left;
   margin-top:     0px;
@@ -122,18 +151,19 @@ h4 {
 }
 
 .c5 h3{
-  font-family:   'Roboto Slab', serif;
+  font-family:        'Oswald', sans-serif;
   font-size:      20px;
   text-align:     left;
   margin-top:     0px;
   letter-spacing: 2px;
+  color:          white;
   
 }
 
 
 
 #style1 {
-  font-family:   'Roboto Slab', serif;
+  font-family:        'Oswald', sans-serif;
   font-size:      30px;
   text-align:     left;
   padding-top:    95px;
@@ -144,7 +174,7 @@ h4 {
 }
 
 #style2 {
-  font-family:   'Roboto Slab', serif;
+  font-family:        'Oswald', sans-serif;
   font-size:      20px;
   text-align:     left;
   padding-left:   20px;
@@ -155,7 +185,7 @@ h4 {
 }
 
 #style3 {
-  font-family:   'Roboto Slab', serif;
+  font-family:        'Oswald', sans-serif;
   font-size:      30px;
   text-align:     left;
   padding-top:    0px;
@@ -190,10 +220,11 @@ h4 {
 .c5{
   padding-right: 40px;
   padding-left:  40px;
+
 }
 
 .c5 h6{
-  font-family:   'Roboto Slab', serif;
+  font-family:        'Oswald', sans-serif;
   font-size:      30px;
   text-align:     left;
   letter-spacing: 2px;
@@ -201,18 +232,27 @@ h4 {
   
 }
 
+h6{
+  font-family:        'Oswald', sans-serif;
+  font-size:      30px;
+  text-align:     left;
+  letter-spacing: 2px;
+  margin-top:     40px; 
+  }
+
 .c5 p {
   margin-top:     20px; 
-  font-family:    'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size:      15px;
   text-align:     left;
+  line-height:    20px;
 }
 
 #justify p {
   text-align:     justify; 
   text-justify:   inter-word;
   margin-top:     20px; 
-  font-family:    'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size:      15px;
   text-align:     left;
 }
@@ -221,7 +261,7 @@ h4 {
   text-align:     justify; 
   text-justify:   inter-word;
   margin-top:     20px; 
-  font-family:    'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size:      15px;
   text-align:     left;
 }
@@ -244,7 +284,8 @@ padding: 50px;
 }
 
 .c4 p {
-  font-family:    'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
   font-size:      15px;
   text-align:     left;
   margin-top:     20px;
@@ -253,7 +294,7 @@ padding: 50px;
 
 
 .c4 ol {
-  font-family:    'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size:      15px;
   text-align:     left;
   letter-spacing: 1px;
@@ -262,7 +303,7 @@ padding: 50px;
 }
 
 .c4 li {
-  font-family:    'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size:      15px;
   text-align:     left;
   margin-top:     20px;
@@ -271,7 +312,7 @@ padding: 50px;
 }
 
 .padding1 li {
-  font-family:    'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size:      15px;
   text-align:     left;
   margin-top:     10px;
@@ -290,7 +331,7 @@ padding: 50px;
   display:        none;
   background:     grey;
   color:          white;
-  font-family:    'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size:      15px;
   padding:        10px;
   text-align:     left;
@@ -370,7 +411,7 @@ padding: 50px;
 
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .overlay {
@@ -426,11 +467,12 @@ body {
 .arrow_box {
   position: relative;
   background: #0f1417;
-  width: 250px;
+  width: 200px;
   height: 200px;
   padding: 60px;
-  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 20px;
+
 }
 .arrow_box:after {
   left: 100%;
@@ -450,11 +492,11 @@ body {
 
 .arrow_box1 {
   position: relative;
-  background: #0f1417;
-  width: 185px;
+  background: #5B5F72;
+  width: 200px;
   height: 300px;
   padding: 40px;
-  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 .arrow_box1:after {
@@ -469,18 +511,18 @@ body {
   border-color: rgba(15, 20, 23, 0);
   border-width: 30px;
   margin-top: -20px;
-  border-left-color: #251942;
+  border-left-color: #5B5F72;
 
 }
 
 
 .arrow_box2 {
   position: relative;
-  background: #0f1417;
-  width: 185px;
+  background: #6D7181;
+  width: 200px;
   height: 300px;
   padding: 40px;
-  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 .arrow_box2:after {
@@ -495,17 +537,17 @@ body {
   border-color: rgba(15, 20, 23, 0);
   border-width: 30px;
   margin-top: -20px;
-  border-left-color: #301C52;
+  border-left-color: #6D7181;
 
 }
 
 .arrow_box3 {
   position: relative;
-  background: #0f1417;
-  width: 185px;
+  background: #808390;
+  width: 200px;
   height: 300px;
   padding: 40px;
-  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 .arrow_box3:after {
@@ -520,18 +562,18 @@ body {
   border-color: rgba(15, 20, 23, 0);
   border-width: 30px;
   margin-top: -20px;
-  border-left-color: #3C1F63;
+  border-left-color: #808390;
 
 
 }
 
 .arrow_box4 {
   position: relative;
-  background: #0f1417;
-  width: 185px;
+  background: #9395A0;
+  width: 200px;
   height: 300px;
   padding: 40px;
-  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 .arrow_box4:after {
@@ -546,17 +588,17 @@ body {
   border-color: rgba(15, 20, 23, 0);
   border-width: 30px;
   margin-top: -20px;
-  border-left-color: #482273;
+  border-left-color: #9395A0;
 
 }
 
 .arrow_box5 {
   position: relative;
-  background: #0f1417;
-  width: 185px;
+  background: #A5A7AF;
+  width: 200px;
   height: 300px;
   padding: 40px;
-  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 .arrow_box5:after {
@@ -571,17 +613,17 @@ body {
   border-color: rgba(15, 20, 23, 0);
   border-width: 30px;
   margin-top: -20px;
-  border-left-color: #542584;
+  border-left-color: #A5A7AF;
 
 }
 
 .arrow_box6 {
   position: relative;
-  background: #0f1417;
-  width: 185px;
+  background: #B8B9BF;
+  width: 200px;
   height: 300px;
   padding: 40px;
-  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 .arrow_box6:after {
@@ -688,7 +730,7 @@ Main Components
 .cd-horizontal-timeline .timeline {
   position: relative;
   height: 100px;
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -700,18 +742,21 @@ Main Components
   margin-top: 50px;
 }
 .cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
-  /* these are used to create a shadow effect at the sides of the timeline */
+   these are used to create a shadow effect at the sides of the timeline 
   content: '';
   position: absolute;
   z-index: 2;
   top: 0;
   height: 100%;
   width: 20px;
+
+
 }
 .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
   background-image: -webkit-linear-gradient( left , #f8f8f8, rgba(248, 248, 248, 0));
   background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0));
+
 }
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
@@ -759,7 +804,8 @@ Main Components
   bottom: 0;
   z-index: 2;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  margin-right: 20px;
   padding-bottom: 15px;
   color: #383838;
   /* fix bug on Safari - text flickering while timeline translates */
@@ -768,6 +814,7 @@ Main Components
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
   transform: translateZ(0);
+
 }
 .cd-horizontal-timeline .events a::after {
   /* this is used to create the event spot */
@@ -863,7 +910,7 @@ Main Components
   -o-transform: translateY(-50%) rotate(180deg);
   transform: translateY(-50%) rotate(180deg);
 }
-.cd-timeline-navigation a.next {
+/*.cd-timeline-navigation a.next {
   right: 0;
 }
 .no-touch .cd-timeline-navigation a:hover {
@@ -877,7 +924,7 @@ Main Components
 }
 .no-touch .cd-timeline-navigation a.inactive:hover {
   border-color: #dfdfdf;
-}
+}*/
 
 .cd-horizontal-timeline .events-content {
   position: relative;
@@ -941,7 +988,7 @@ Main Components
 .cd-horizontal-timeline .events-content h2 {
   font-weight: bold;
   font-size: 2.6rem;
-  font-family: "Playfair Display", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -951,7 +998,7 @@ Main Components
   font-size: 2.6rem;
   font-weight: 700;
   line-height: 1.2;
-  font-family:   'Roboto Slab', serif;
+  font-family:        'Oswald', sans-serif;
    
 }
 
@@ -1129,6 +1176,12 @@ span.line_wrap:hover span.line {
 }
 #images{
    text-align:center;
+
+}
+
+
+.events-content .h3 {
+  text-align: center;
 }
 /*end of timeline styling*/
 

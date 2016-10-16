@@ -2,18 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> App Boiler Plate </title>
+  <title> Writ of Habeas Corpus</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
   <script src="js/jquery.2.2.4.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
+
+  <script src="js/strikethrough.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+  <!-- timeline -->
+
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset
+<!--   <link rel="stylesheet" href="css/TL.css"> <!-- Resource style -->
+ <script src="js/modernizr.js"></script> <!-- Modernizr -->
+ 
+  <script src="js/main.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
     <style>
@@ -23,6 +40,7 @@
 
 </head>
 <body>
+
 <!-- Logo section below -->
 
 
@@ -40,7 +58,7 @@
 
     <div class="col-md-3">
       <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #c5c5c5; border: #c5c5c5; outline: none; margin-top: 20px; margin-right: 40px;">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
 
           <img src="images/nav.png" style="width: 40px;">
             <span class="caret"></span>
@@ -52,7 +70,6 @@
 
       <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
       <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="results.html"><strong>RESULTS</strong></a></li>
       <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
 
               <li class="dropdown-submenu" class=>
@@ -87,11 +104,10 @@ e.preventDefault();
     </div>
   </div>
 </div>
-</div>
 
 <!-- Menu bar above ^  -->
 
-<div style="background: #c5c5c5; width: 100%;" class="c5">
+<div style=" width: 100%;" class="c5">
   <div class="row">
   <div class="col-md-12">
       <h4 style="padding-top: 50px; padding-bottom: 50px;">Recommendations</h4>
@@ -105,20 +121,19 @@ e.preventDefault();
 
 <!-- report -->
 
-<div class="fullWidth" style=" width: 100%; margin-top: 30px;">
+<div class="fullWidth c5" style=" width: 100%; margin-top: 30px;">
     <div class="row" style="background-image: url(images/prison.jpg)">
     <div class="col-md-12" style="padding:40px;">
 
 <!--     <img src="images/prison.jpg" alt="Prison" style="z-index: -100;">
  -->
 
-<h3 style="font-size: 45px; padding: 40px; color: white;">It is our stance that Etowah County Detention Center should not detain immigrants. We support the shutting down of the immigrant detention center at Etowah.</h3>
+    <h3 style="font-size: 45px; padding: 40px; color: white;">It is our stance that Etowah County Detention Center should not detain immigrants. We support the shutting down of the immigrant detention center at Etowah.</h3>
 
     </div>
-    <div class="col-md-12" style="background: white; padding:40px;">
+    <div class="col-md-12 c5" style="background: white; padding:40px;">
 
-    <h3 style="padding-left:40px;">Pending the closure we recommend the following:</h3>
-
+    <h3 style="padding-left:40px; color: black; font-size: 35px;">Pending the closure we recommend the following:</h3>
 
     </div>
 </div>
@@ -128,7 +143,7 @@ e.preventDefault();
 
  <div id="scroller" style="margin-top: 20px;">
   <div class="scrollbox">
-    <div style="background: #251942; padding: 40px; width: 800px;">
+    <div style="background: #5B5F72; padding: 40px; width: 800px;">
 
     <h3> 1. </h3>
 
@@ -147,7 +162,7 @@ e.preventDefault();
     </div>
 
 
-    <div style="background: #251942; padding: 40px; width: 500px;">
+    <div style="background: #5B5F72; padding: 40px; width: 500px;">
 
     
 
@@ -165,7 +180,7 @@ e.preventDefault();
 
 
 
-    <div style="background: #332252; padding: 40px; width: 500px;">
+    <div style="background: #6D7181; padding: 40px; width: 500px;">
 
     <h3> 2. </h3>
 
@@ -176,7 +191,7 @@ e.preventDefault();
     </div>
 
 
-    <div style=" background: #412C62; padding: 40px; width: 500px;">
+    <div style=" background: #808390; padding: 40px; width: 500px;">
 
      <h3> 3. </h3>
 
@@ -189,7 +204,7 @@ e.preventDefault();
 
 
 
-    <div style="background: #4F3572; padding: 40px; width: 500px;">
+    <div style="background: #9395A0; padding: 40px; width: 500px;">
 
      <h3> 4. </h3>
 
@@ -201,7 +216,7 @@ e.preventDefault();
     </div>
 
 
-    <div style=" background: #5D3F82; padding: 40px; width: 800px;">
+    <div style=" background: #A5A7AF; padding: 40px; width: 800px;">
 
      <h3> 5. </h3>
 
@@ -212,7 +227,7 @@ e.preventDefault();
 
     </div>
 
-    <div style="background: #6B4892; padding: 40px; width: 800px;">
+    <div style="background: #B8B9BF; padding: 40px; width: 800px;">
 
      <h3> 6. </h3>
 

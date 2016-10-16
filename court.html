@@ -2,19 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> App Boiler Plate </title>
+  <title> Writ of Habeas Corpus</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
   <script src="js/jquery.2.2.4.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+  <script src="js/strikethrough.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+  <!-- timeline -->
+
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset
+<!--   <link rel="stylesheet" href="css/TL.css"> <!-- Resource style -->
+ <script src="js/modernizr.js"></script> <!-- Modernizr -->
+ 
+  <script src="js/main.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
     <style>
     
@@ -23,11 +40,12 @@
 
 </head>
 <body>
+
 <!-- Logo section below -->
 
 
 <div style="z-index: 1000;">
-  <div class="row" >
+  <div class="row" style="">
   <div class="col-md-4" >
   <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
   </div>
@@ -40,7 +58,7 @@
 
     <div class="col-md-3">
       <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #c5c5c5; border: #c5c5c5; outline: none; margin-top: 20px; margin-right: 40px;">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
 
           <img src="images/nav.png" style="width: 40px;">
             <span class="caret"></span>
@@ -52,7 +70,6 @@
 
       <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
       <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="results.html"><strong>RESULTS</strong></a></li>
       <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
 
               <li class="dropdown-submenu" class=>
@@ -103,7 +120,7 @@ e.preventDefault();
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content" id="justify" style="padding:40px;">
           
-          <h4 style="margin-top: -100px; margin-bottom: 50px;">Cesar</h4>
+          <div id="font" style="margin-top: -100px; margin-bottom: 50px; font-color: white;">Cesar</div>
 
           <div style=" width: 100%;" class="c5">
 
@@ -147,7 +164,7 @@ e.preventDefault();
 
           <div class="col-md-6">
 
-          <h6 style="color: white; font-size: 40px;">In the Northern District of Alabama, detainees faced a huge range of circumstances - between <span style="color: #f4b642;">182 days</span> and <span style="color: #f4b642;">1,122 days</span> of detention while awaiting removal, some involving concrete proof that no travel document would be forthcoming, and some involving deceit or potential fraud on the part of ICE.</h6> 
+          <h6 style="color: white; font-size: 40px;">In the Northern District of Alabama, detainees faced a huge range of circumstances - between <span style="color: yellow;">182 days</span> and <span style="color: yellow;">1,122 days</span> of detention while awaiting removal, some involving concrete proof that no travel document would be forthcoming, and some involving deceit or potential fraud on the part of ICE.</h6> 
 
           </div>
           </div>
@@ -159,14 +176,14 @@ e.preventDefault();
 
 
 
-      <div style="cursor: pointer; position: relative; margin-left: 180px; margin-top: 20px;" onclick="openNav()"><img src="images/Folder.svg.png" style="width: 50px; margin-left: 20px"></div>
+<div style="cursor: pointer; position: relative; margin-left: 180px; margin-top: 20px;" onclick="openNav()"><img src="images/Folder.svg.png" style="width: 50px; margin-left: 30px"></div>
 
 
-      <span style="font-size:12px; cursor: pointer; margin-left: 190px;" onclick="openNav()">Case Study</span>
+<span style="font-size:12px; cursor: pointer; margin-left: 200px;" onclick="openNav()">Case Study</span>
 
 
 
-      <script>
+<script>
       function openNav() {
           document.getElementById("myNav").style.width = "100%";
       }
@@ -174,7 +191,8 @@ e.preventDefault();
       function closeNav() {
           document.getElementById("myNav").style.width = "0%";
       }
-      </script>
+</script>
+
 </div>
 
 </div>
@@ -191,9 +209,11 @@ e.preventDefault();
   	<div class="col-md-12" >
     <h4 style="padding-top: 50px; padding-bottom: 50px;">The Court</h4> 
 
+    <hr>
+
     </div>
 
-    <div class="col-md-12" style="background: #251942; color: white; padding: 20px;">
+    <div class="col-md-12" style="background: #251942; color: white; padding: 20px; margin-top: 30px; padding-bottom: 40px;">
 
   	<h6>THE SUPREME COURT OF THE UNITED STATES REQUIRES LIMITS</h6> 
     <h3>to how long a person can be detained after they have been ordered deported</h3>
@@ -202,9 +222,9 @@ e.preventDefault();
   </div>
 
     <div class="row" style="background: white; padding: 20px;">
-    <div class="col-md-6" id="justify">
+    <div class="col-md-6 " id="justify">
 
-    <p>Fifteen years ago the Supreme Court of the United States - the highest court in the country - reminded federal courts of their constitutional duty to protect the liberty of detained immigrants.<span class="clickme" style="color: blue; font-size:18px;"><sup>[1]</sup></span><span class="footnote" style="float: left; width: 200px; margin: 20px 20px 20px 20px;">[1] <i>Zadvydas</i> v. Davis, 533 U.S. 678, 680 (2001)</span> The Supreme Court’s ruling addressed immigration detention, a practice that was on the rise. In 1996, Congress amended the immigration laws to increase the use of immigration detention to hold immigrants who had been ordered deported while their removal was pending.<span class="clickme" style="color: blue; font-size:18px;"><sup>[2]</sup></span><span class="footnote" style="float: left; width: 200px; margin: 20px 20px 20px 20px;">[2] Faiza W. Sayed, Challenging Detention: Why Immigrant Detainees Receive Less Process Than "Enemy Combatants" and Why They Deserve More, 111 Colum. L. Rev. 1833, 1836-37 (2011)</span> The consequences of the rise of incarceration for immigrants was extreme – detainees were deprived of their liberty, detained far from their families and communities, and held in many cases indefinitely while the government attempted to secure an entry document for their deportation to another country. The Supreme Court responded on June 28th, 2001, in <i>Zadvydas v. Davis</i> – urging courts not to “[abdicate] their legal responsibility,” and providing courts with vital criteria through which to judge the detention of immigrants while the government is in theory attempting to secure documents for a detainee’s entry into the receiving country. The release of this report marks the 15th anniversary of the Supreme Court ruling and chronicles its legacy, in one detention center in particular; Etowah County Detention Center in Gadsden, Alabama. </p>
+    <p>Fifteen years ago the Supreme Court of the United States - the highest court in the country - reminded federal courts of their constitutional duty to protect the liberty of detained immigrants.<span class="clickme" style="color: blue; font-size:18px;"><sup>[1]</sup></span><span class="footnote" style="float: left; width: 200px; margin: 20px 20px 20px 20px;">[1] <i>Zadvydas</i> v. Davis, 533 U.S. 678, 680 (2001)</span>The Supreme Court’s ruling addressed immigration detention, a practice that was on the rise. In 1996, Congress amended the immigration laws to increase the use of immigration detention to hold immigrants who had been ordered deported while their removal was pending.<span class="clickme" style="color: blue; font-size:18px;"><sup>[2]</sup></span><span class="footnote" style="float: left; width: 200px; margin: 20px 20px 20px 20px;">[2] Faiza W. Sayed, Challenging Detention: Why Immigrant Detainees Receive Less Process Than "Enemy Combatants" and Why They Deserve More, 111 Colum. L. Rev. 1833, 1836-37 (2011)</span> The consequences of the rise of incarceration for immigrants was extreme – detainees were deprived of their liberty, detained far from their families and communities, and held in many cases indefinitely while the government attempted to secure an entry document for their deportation to another country. The Supreme Court responded on June 28th, 2001, in <i>Zadvydas v. Davis</i> – urging courts not to “[abdicate] their legal responsibility,” and providing courts with vital criteria through which to judge the detention of immigrants while the government is in theory attempting to secure documents for a detainee’s entry into the receiving country. The release of this report marks the 15th anniversary of the Supreme Court ruling and chronicles its legacy, in one detention center in particular; Etowah County Detention Center in Gadsden, Alabama. </p>
 
 
     <p> In <i>Zadvydas</i>, the Supreme Court recognized that detainees awaiting deportation were disappearing into a legal black hole and that habeas petitions provided the only path out. Because the Immigration and Nationality Act (§241(6)) allows the government to detain immigrants who have not yet been removed after 90 days, prior to the Supreme Court’s decision in <i>Zadvydas</i>, detaining individuals indefinitely was the norm.<span class="clickme" style="color: blue; font-size:18px;"><sup>[3]</sup></span><span class="footnote" style="float: left; width: 200px; margin: 20px 20px 20px 20px;">[3] §241 of the INA governs the detention of immigrants with final orders of removal. Under the statue, the government “shall remove” an immigrant within 90 days. There are a number of provisions in the section that affect how the removal period is calculated  and additionally, §241(6) states “Inadmissible or criminal aliens.-An alien ordered removed who is inadmissible under section 212 , removable under section 237(a)(1)(C) ,237(a)(2) , or 237(a)(4) or who has been determined by the Attorney General to be a risk to the community or unlikely to comply with the order of removal, may be detained beyond the removal period and, if released, shall be subject to the terms of supervision in paragraph (3).”</span></p> 
@@ -230,7 +250,7 @@ e.preventDefault();
 <div style="background: #aaaaaa; width: 100%;" class="c5">
   <div class="row">
   
-    <div class="col-md-12" style="background: #251942; color: white; padding: 20px;">
+    <div class="col-md-12" style="background: #251942; color: white; padding: 20px; padding-bottom: 40px;">
   
   <h6>THE COURT HAS ABDICATED ITS CONSTITUTIONAL RESPONSIBILITY</h6> 
 
@@ -264,7 +284,7 @@ e.preventDefault();
 <div style="background: #aaaaaa; width: 100%;" class="c5">
   <div class="row">
   
-    <div class="col-md-12" style="background: #251942; color: white; padding: 20px;">
+    <div class="col-md-12" style="background: #251942; color: white; padding: 20px; padding-bottom: 40px;">
 
   <h6>THE COURT HAS ABDICATED ITS CONSTITUTIONAL RESPONSIBILITY</h6> 
 
@@ -282,7 +302,7 @@ e.preventDefault();
 
   <hr>
 
-  <h3 id="uppercase" style="font-size: 18px;">The Court has failed to comply with the habeas law</h3>
+  <h3 id="uppercase" style="font-size: 18px; color: #251942">The Court has failed to comply with the habeas law</h3>
 
   <p>As discussed in the proceeding section, under the constitutional statue (28 U.S.C. §2243), once a habeas petition has been filed, courts are required to quickly issue an order to show cause directed at the person in custody. Despite the fact that the statute calls for a response within three days (and sets a maximum of 23 days), in 100% of the cases filed in the last 5 years, the court granted ICE <b>thirty days</b> to respond. This thirty-day period is longer than the maximum amount of time allowed under the constitutional statute, even in exceptional circumstances. Furthermore, the court in the Northern District of Alabama granted every extension requested by ICE/DHS without any explanation or any acknowledgement for the added detention that the person faced as a result.</p>
 
