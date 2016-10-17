@@ -2,22 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> App Boiler Plate </title>
+  <title> Writ of Habeas Corpus</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
 
-
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <script src="js/jquery.2.2.4.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
+  <script src="js/strikethrough.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+  <!-- timeline -->
+
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset
+<!--   <link rel="stylesheet" href="css/TL.css"> <!-- Resource style -->
+ <script src="js/modernizr.js"></script> <!-- Modernizr -->
+ 
+  <script src="js/main.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
     <style>
     
@@ -26,11 +40,12 @@
 
 </head>
 <body>
+
 <!-- Logo section below -->
 
 
 <div style="z-index: 1000;">
-  <div class="row" style="background: #c5c5c5;">
+  <div class="row" style="">
   <div class="col-md-4" >
   <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
   </div>
@@ -43,7 +58,7 @@
 
     <div class="col-md-3">
       <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #c5c5c5; border: #c5c5c5; outline: none; margin-top: 20px; margin-right: 40px;">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
 
           <img src="images/nav.png" style="width: 40px;">
             <span class="caret"></span>
@@ -55,7 +70,6 @@
 
       <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
       <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="results.html"><strong>RESULTS</strong></a></li>
       <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
 
               <li class="dropdown-submenu" class=>
@@ -84,8 +98,6 @@ e.preventDefault();
 });
 });
       </script>
-
-      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
       </ul>
     </div>
   </div>
@@ -93,25 +105,116 @@ e.preventDefault();
 
 <!-- Menu bar above ^  -->
 
-<div class="c3" >
+
+<div style="background: #aaaaaa; width: 100%;" class="c5">
+  <div class="row">
+
+    <div class="col-md-12" >
+    <div id="font" style="padding-top: 50px; padding-bottom: 50px; text-align:center;">Stories</div> 
+
+    <hr>
+
+    </div>
+    </div>
+
+<div style="background: white; width: 100%; margin-bottom: 20px;" class="fullWidth c5">
+ <div class="row fullWidth" style="background: white;">
+    <div class="col-md-12" >  
+
+    <div class="fullWidth"><h4 style="color: black; background-color:white; padding: 20px; font-size: 30px;"> Click on cell doors for stories</h4></div>
+    
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+<div class="c3" style="margin-top:0px; z-index: -2000;" >
   <div class="row">
       <div class="col-md-12">
 
-      <div><img src="images/Prison_Pod.png" style="width:100%; position: fixed; z-index: -200; margin-top:-120px;">
+    <img src="images/Prison_Pod.png" width="100%" height="100%" alt="Writ of Habeas Corpus" usemap="#HCmap" class="map" style="z-index:-2000;">
 
-      <div  id="font" style="padding-top: 100px;text-align: center;"> Stories </div>
 
-      <div id="storyOne" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 190px; position: fixed;"></div>
+      <map name="HCmap">
+
+        <area class="mapping" shape="rect" coords="190,199,274,343" alt="Writ of Habeas Corpus" href="1.html">
+
+
+        <area id="2" class="mapping" shape="rect" coords="190,404,274,553" alt="Writ of Habeas Corpus" href="2.html">
+
+        <area class="mapping" shape="rect" coords="453,199,534,343" alt="Writ of Habeas Corpus" href="3.html">
+        <area class="mapping" shape="rect" coords="453,404,534,553" alt="Writ of Habeas Corpus" href="4.html">
+
+        <area class="mapping" shape="rect" coords="710,199,797,343" alt="Writ of Habeas Corpus" href="5.html">
+        <area class="mapping" shape="rect" coords="710,404,797,553" alt="Writ of Habeas Corpus" href="6.html">
+
+        <area class="mapping" shape="rect" coords="973,199,1057,343" alt="Writ of Habeas Corpus" href="7.html">
+        <area class="mapping" shape="rect" coords="973,404,1057,553" alt="Writ of Habeas Corpus" href="8.html">
+        
+      </map>
+
+    <script type="text/javascript">
+        $(function () {
+            $('.map').maphilight();
+        });
+    </script>
+
+
+<style>
+
+.highLight{
+    background-color: #333333;
+}
+
+.mapping{
+    -webkit-transition:0.3s;
+    transition:0.3s;
+    opacity:1;
+}
+.mapping:not(.highLight){
+    opacity:0.5;
+}
+  
+}
+
+</style>
+
+
+<!-- image -->
+
+      <!-- <div><img src="images/Prison_Pod.png" style="width:100%; position: fixed; z-index: -200; margin-top:-120px; usemap="#planetmap">
+
+      <div  id="font" style="padding-top: 100px;text-align: center;"> Stories </div> -->
+
+
+<!-- 1 -->
+      <!-- <div id="storyOne" style="width: 85px; height: 160px; margin-top: 20px; margin-left: 180px; position: fixed;"></div>
 
         <style type="text/css">
         #storyOne:hover { 
         background-color: yellow; 
         opacity: .2;
-      }
-        </style>
+        }
+        </style> -->
+
+<!-- 2 -->
+
+     <!--  <div id="storyOne" style="width: 85px; height: 160px; margin-top: 0px; margin-left: 180px; position: fixed;"></div>
+
+        <style type="text/css">
+        #storyOne:hover { 
+        background-color: yellow; 
+        opacity: .2;
+        }
+        </style> -->
+
+<!-- 2 -->
 
 
-      <div id="storyTwo" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 448px; position: fixed;"></div>
+     <!--  <div id="storyTwo" style="width: 85px; height: 160px; margin-top: 110px; margin-left: 448px; position: fixed;"></div>
 
         <style type="text/css">
         #storyTwo:hover { 
@@ -137,8 +240,10 @@ e.preventDefault();
         opacity: .2;
       }
         </style>
-      <div>
+      <div> -->
         
     </div>
   </div>
-</div
+</div>
+</div>
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> App Boiler Plate </title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <script src="js/jquery.2.2.4.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+
+    <style>
+    
+    </style>
+
+
+</head>
+<body>
+<!-- Logo section below -->
+
+
+<div style="z-index: 1000;">
+  <div class="row" style="">
+  <div class="col-md-4" >
+  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
+  </div>
+
+<!-- Logo section ^ above -->
+
+<!-- Menu bar below  -->
+
+    <div class="col-md-5"></div>
+
+    <div class="col-md-3">
+      <div class="dropdown" style="float: right;">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
+
+          <img src="images/nav.png" style="width: 40px;">
+            <span class="caret"></span>
+          </button>
+
+            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
+
+     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
+
+      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+      <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
+      <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
+
+              <li class="dropdown-submenu" class=>
+                <a tabindex="-1" href="#"><strong>REPORTS</strong></a>
+                <ul class="dropdown-menu" style="">
+<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
+ -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
+                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
+                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
+                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
+                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+                  </ul>
+        </li>
+  
+      <script type="text/javascript">
+      // $('li.expandable').click(function() {
+      //   $(this).children('ul').toggle();
+      //   return false;
+      // });
+
+$(document).ready(function(){
+$('.dropdown-submenu>a').unbind('click').click(function(e){
+$(this).next('ul').toggle();
+e.stopPropagation();
+e.preventDefault();
+});
+});
+      </script>
+
+      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Menu bar above ^  -->
+
+<div style="background-color: white; width: 100%;" class="c4">
+  <div class="row" style="padding: 40px;">
+
+  <div class="col-md-12" >
+
+  <div style="border: 5px solid yellow; padding:10px; width: 150px; text-align: center"><p> Back to <a href="Stories.html">Stories</a></p></div> 
+
+  </div>
+    
+    <div class="col-md-12" > 
+
+    <h4 style="padding-top: 10px; padding-bottom: 0px;">William</h4> 
+
+    <hr>
+
+    </div>
+    </div>
+
+    <div class="row" style="background: white; padding-right: 40px; padding-left:40px; padding-bottom: 40px;">
+    <div class="col-md-12 " id="justify">
+
+    <p>The case of <b>William</b>, who arrived in the United States by boat from Jamaica in the 1990s at the age of 10, illustrates ICE’s use of failure to comply status to prolong an immigrant’s confinement. William was abandoned by his mother in Jamaica and had no other stated family.  ICE believed that William was a citizen of Trinidad and Tobago. ICE claimed that William failed to provide any identification and that his only excuse for lack of documentation was his “lack of family.” In other words, despite the fact that William came to the US by boat as a ten year old child ICE blamed him for his lack of family and for the fact that he has no proof of Trinidadian identity.  William spent a year and half in detention after receiving a final order of removal despite the fact that the Embassy of the Republic of Trinidad and Tobago provided an official letter stating that they were not able to confirm William’s identity and therefore could not legally issue travel documents. Although ICE clearly had this information, they continued to detain William and actually filed criminal charges against William in January 2012 for failing to comply. This charge was dismissed by the District Court of New Mexico in May 2012. Despite this dismissal and a letter from the Embassy of the Republic of Trinidad and Tobago denying the issuance of travel documents, ICE detained William for another five months, until he filed a habeas corpus petition. When William finally signaled his unlawful detention to the court in the Northern District of Alabama, ICE took William out of Etowah..</p>
+
+    </div>
+
+  
+
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
