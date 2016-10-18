@@ -10,7 +10,7 @@ body{
 button {
   /*background: #c5c5c5;*/
   opacity:    ;
-  color:      #FFA500;
+  color:      black;
   outline:    none;
   bottom:     30px;
 
@@ -666,7 +666,7 @@ font-family: 'Roboto', sans-serif;
 .scrollbox {
   float: left;           /* makes it shrink-wrap all the floating divs inside */
   margin-right: -30000px; /* allows the width expanding beyond parent edge to give adjacent space *//*N.B. the limit in Opera is a total scroll width of 32778px */
-  color: white;
+  color: black;
 
 }
 .scrollbox div {
