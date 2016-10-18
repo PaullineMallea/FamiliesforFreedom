@@ -1,0 +1,27 @@
+/*for index page*/
+/*max 480*/
+
+#image {
+	width: 20%;
+
+}
+
+#box3 {
+
+	width: 			400px;
+	height: 		500px;
+	padding: 		10px;
+
+}
+
+#insideBox {
+	width: 150px;
+
+}
+
+#PG {
+	margin-top: 1000px;
+	color: blue;
+	font-size: 10px; 
+}
+

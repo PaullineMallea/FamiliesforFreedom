@@ -12,8 +12,10 @@
   <script src="js/jquery.2.2.4.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
+  <script src="js/jquery.rwdImageMaps.js"></script>
+  <script src="js/jquery.rwdImageMaps.min.js"></script>
+  <script src="js/imageMapResizer.min.js"></script>
 
-  <script src="js/strikethrough.js"></script>
 
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -140,30 +142,30 @@ e.preventDefault();
 
       <map name="HCmap">
 
-        <area class="mapping" shape="rect" coords="190,199,274,343" alt="Writ of Habeas Corpus" href="1.html">
+        <area class="mapping" shape="rect" coords="160,169,274,343" alt="Writ of Habeas Corpus" href="1.html">
+
+        <area id="2" class="mapping" shape="rect" coords="160,374,274,533" alt="Writ of Habeas Corpus" href="2.html">
 
 
-        <area id="2" class="mapping" shape="rect" coords="190,404,274,553" alt="Writ of Habeas Corpus" href="2.html">
+        <area class="mapping" shape="rect" coords="403,169,517,343" alt="Writ of Habeas Corpus" href="3.html">
+        <area class="mapping" shape="rect" coords="403,374,517,533" alt="Writ of Habeas Corpus" href="4.html">
 
-        <area class="mapping" shape="rect" coords="453,199,534,343" alt="Writ of Habeas Corpus" href="3.html">
-        <area class="mapping" shape="rect" coords="453,404,534,553" alt="Writ of Habeas Corpus" href="4.html">
+        <area class="mapping" shape="rect" coords="650,169,764,343" alt="Writ of Habeas Corpus" href="5.html">
+        <area class="mapping" shape="rect" coords="650,374,764,533" alt="Writ of Habeas Corpus" href="6.html">
 
-        <area class="mapping" shape="rect" coords="710,199,797,343" alt="Writ of Habeas Corpus" href="5.html">
-        <area class="mapping" shape="rect" coords="710,404,797,553" alt="Writ of Habeas Corpus" href="6.html">
-
-        <area class="mapping" shape="rect" coords="973,199,1057,343" alt="Writ of Habeas Corpus" href="7.html">
-        <area class="mapping" shape="rect" coords="973,404,1057,553" alt="Writ of Habeas Corpus" href="8.html">
+        <area class="mapping" shape="rect" coords="903,169,1007,343" alt="Writ of Habeas Corpus" href="7.html">
+        <area class="mapping" shape="rect" coords="903,374,1007,533" alt="Writ of Habeas Corpus" href="8.html">
         
       </map>
 
-    <script type="text/javascript">
-        $(function () {
-            $('.map').maphilight();
-        });
-    </script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('map').imageMapResize();
+});
+</script>
 
 
-<style>
+<!-- <style>
 
 .highLight{
     background-color: #333333;
@@ -180,8 +182,19 @@ e.preventDefault();
   
 }
 
-</style>
+</style> -->
 
+<!-- <script type="text/javascript">
+
+$(document).ready(function(e) {
+  $('img[usemap]').rwdImageMaps();
+  
+  $('area').on('click', function() {
+    alert($(this).attr('alt') + ' clicked');
+  });
+});
+
+</script> -->
 
 <!-- image -->
 
@@ -246,4 +259,11 @@ e.preventDefault();
   </div>
 </div>
 </div>
+
+
+
+
+
+</body>
+</html>
 

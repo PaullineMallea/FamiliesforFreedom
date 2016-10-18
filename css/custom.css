@@ -1,7 +1,11 @@
+
+
 body{
 	background: 		#aaaaaa;
 
 }
+
+@media (max-width: 1280px) {
 
 button {
   /*background: #c5c5c5;*/
@@ -26,6 +30,7 @@ button {
    margin-right: 	50%;
    display: 			block;
    margin: 				0;
+   width:         100%;
 }
 
 h1 {
@@ -118,7 +123,7 @@ h4 {
 
 .c2 h3 {
   font-family:    'Oswald', sans-serif;
-  font-size:      20px;
+  font-size:      30px;
   text-align:     left;
   margin-top:     0px;
   letter-spacing: 2px;
@@ -910,7 +915,7 @@ Main Components
   -o-transform: translateY(-50%) rotate(180deg);
   transform: translateY(-50%) rotate(180deg);
 }
-/*.cd-timeline-navigation a.next {
+.cd-timeline-navigation a.next {
   right: 0;
 }
 .no-touch .cd-timeline-navigation a:hover {
@@ -924,7 +929,7 @@ Main Components
 }
 .no-touch .cd-timeline-navigation a.inactive:hover {
   border-color: #dfdfdf;
-}*/
+}
 
 .cd-horizontal-timeline .events-content {
   position: relative;
@@ -1190,7 +1195,294 @@ span.line_wrap:hover span.line {
   
 }
 
+#PG {
+  padding: 40px 0 40px 0px; 
+  margin-left:30px; 
+  text-align: left; 
+  color: black;
+}
 
+button {
+  background: #aaaaaa; 
+  border: #aaaaaa; 
+  outline: none; 
+  margin-top: 
+  20px; 
+  margin-right: 40px;
+}
+
+.c1 #image {
+  padding-left: 50px; margin-top: -25px; z-index: -100; "
+}
+
+#navMenu a img {
+  margin: 20px; 
+  width: 150px;
+}
+
+#navMenu .dropdown-menu {
+  margin-left: -100px;
+}
+
+.c1 #hbSmall {
+  font-size: 50px; 
+  margin-top: -230px; 
+  margin-left: 120px; 
+  text-align: left; 
+  text-shadow: 2px 1px #DEDEDE;
+}
+
+.c1 #hbBig {
+  font-size: 150px; 
+  margin-top: -180px;
+  text-shadow: 4px 2px #DEDEDE;"
+
+}
+
+#box3 {
+  background: #DEDEDE; 
+  height: 300px; 
+  color: black;
+  padding-top: 45px; 
+  margin-top: 0px;
+}
+ 
+
+.c2 .col-md-4 {
+  border: 4px solid black; 
+  height: 200px; 
+  font-color: black; 
+  background: #DEDEDE;" 
+
+}
+
+#insideBox .col-md-4 #jusify {
+  line-height: 18px;
+}
+
+#navMenu .dropdown-menu li {
+  font-size:  20px;
+
+}
+  
+#navMenu .dropdown-menu {
+  margin-left: -170px;
+}
+
+.cd-horizontal-timeline .events-content {
+  margin-left: -90px;
+}
+
+
+
+}
+
+/*-----------------------------------------------*/
+@media (min-width: 481px) and (max-width: 999px) {
+
+body {
+}
+
+button {
+
+margin-top: 0;
+z-index:    10;
+float:      left;
+width:      50px;
+}
+
+
+.c1 #image {
+  width: 100%;
+  height: auto;
+  margin-left: -110px;
+
+}
+
+#navMenu a img {
+  margin: 20px; 
+  width: 150px;
+}
+  
+#navMenu button {
+  margin-top:     -80px;
+  margin-left:    70px; 
+}
+
+#navMenu .dropdown-menu {
+  margin-left: -115px;
+}
+
+#navMenu .dropdown-menu li {
+  font-size:  20px;
+}
+
+.c1 #hbSmall {
+  margin-top: -270px; 
+  text-align: left; 
+  text-shadow: 2px 1px #DEDEDE;
+  margin-left: 250px;
+}
+
+.c1 #hbBig {
+  text-shadow: 4px 2px #DEDEDE;
+  margin-top: -220px; 
+
+
+
+}
+
+
+
+.c2 .col-md-4 {
+  border: 4px solid black; 
+  font-color: black; 
+  width:      100%;
+
+}
+
+#box3 .row .col-md-4 {
+  line-height: 18px;
+  margin-left: -4px;
+  width:       100%;
+  height:       auto;
+  margin-top:  -4px;
+
+
+}
+
+#box3 .row {
+  width: 100%;
+  height: auto;
+  background-color: #DEDEDE; 
+    padding: 20px;
+
+
+
+}
+
+.cd-horizontal-timeline {
+  margin-top: 0px;
+  height:      500px;
+  background-color: #DEDEDE; 
+
+}
+
+.cd-horizontal-timeline .events-content {
+  margin-left: -20px;
+}
+
+}
+
+/*-----------------------------------------------*/
+
+
+
+@media (max-width: 480px) {
+
+button {
+
+margin-top: 0;
+z-index:    10;
+float:      left;
+width:      50px;
+}
+
+
+.c1 #image {
+  width: 100%;
+  height: auto;
+  margin-left: -370px;
+
+
+}
+
+#navMenu a img {
+  margin: 20px; 
+  width: 150px;
+}
+  
+#navMenu button {
+  margin-top:     -70px;
+  margin-left:    70px; 
+}
+
+#navMenu .dropdown-menu {
+  margin-left: -250px;
+}
+
+#navMenu .dropdown-menu li {
+  font-size:  30px;
+}
+
+.c1 #hbSmall {
+  font-size: 20px; 
+  margin-top: -300px; 
+  text-align: left; 
+  text-shadow: 2px 1px #DEDEDE;
+  margin-left: 40px;
+}
+
+.c1 #hbBig {
+  font-size: 120px; 
+  text-shadow: 4px 2px #DEDEDE;
+    margin-top: -280px; 
+
+
+}
+
+
+
+
+
+/*.c1 {
+  margin-top: -130px;
+}*/
+
+
+.c2 {
+  background: #DEDEDE;
+  width:      100%;
+
+}
+
+.c2 .col-md-4 {
+  border: 4px solid black; 
+  font-color: black; 
+  background: #DEDEDE;
+
+}
+
+#box3 .row .col-md-4 {
+  line-height: 18px;
+  margin-left: -4px;
+  width:       460px;
+  height:       auto;
+  margin-top:  -4px;
+
+}
+
+#box3 .row {
+  padding: 20px;
+  width: 500px;
+  height: 530px;
+  margin-top: -10px;
+  background-color: #DEDEDE; 
+}
+
+.cd-horizontal-timeline {
+  margin-top: -20px;
+  height:      500px;
+  background-color: #DEDEDE; 
+}
+
+.cd-horizontal-timeline .timeline .events-wrapper{
+
+}
+
+.cd-horizontal-timeline .events-content {
+  margin-left: -30px;
+}
 
 /*end of timeline styling*/
 
