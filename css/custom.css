@@ -30,7 +30,11 @@ a:link {
 a u {
   text-decoration: none;
   border-bottom: 1px solid blue;
+
 }
+
+
+@media screen and (max-height: 1050px) {
 /*===========N A V A G A T I O N ==============*/
 
 .nav ul {
@@ -261,7 +265,7 @@ footer :target {
   left:               0; 
   width:              100%; 
   text-align:         center;
-  color:              #251942;
+  color:              #475fca;
   letter-spacing:     5px;
 }
 
@@ -281,7 +285,7 @@ footer :target {
 
 
 
-/*===#251942=======T A B L E  OF  C O N T E N T S================*/
+/*===#475fca=======T A B L E  OF  C O N T E N T S================*/
 
 #title {
   font-family:        'Oswald', sans-serif;  
@@ -717,6 +721,10 @@ font-family: 'Roboto', sans-serif;
     position: relative;
 }
 
+}
+
+
+
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -748,7 +756,7 @@ font-family: 'Roboto', sans-serif;
   border-color: rgba(15, 20, 23, 0);
   border-width: 30px;
   margin-top: -20px;
-  border-left-color: #251942;
+  border-left-color: #475fca;
 
 }
 
@@ -965,7 +973,7 @@ html {
 }*/
 
 a {
-  color: #251942;
+  color: #475fca;
   text-decoration: none;
 }
 
@@ -1004,8 +1012,8 @@ Main Components
   margin-top: 50px;
 }
 .cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
-   these are used to create a shadow effect at the sides of the timeline 
-  content: '';
+/*   these are used to create a shadow effect at the sides of the timeline 
+*/  content: '';
   position: absolute;
   z-index: 2;
   top: 0;
@@ -1046,7 +1054,7 @@ Main Components
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #475FCA;
+  background-color: black;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -1060,7 +1068,9 @@ Main Components
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
+
 }
+
 .cd-horizontal-timeline .events a {
   position: absolute;
   bottom: 0;
@@ -1069,7 +1079,7 @@ Main Components
   font-size: 1rem;
   margin-right: 20px;
   padding-bottom: 15px;
-  color: #383838;
+  color: black;
   /* fix bug on Safari - text flickering while timeline translates */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -1100,18 +1110,18 @@ Main Components
   transition: background-color 0.3s, border-color 0.3s;
 }
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color: #251942;
-  border-color: #251942;
+  background-color: #475fca;
+  border-color: #475fca;
 }
 .cd-horizontal-timeline .events a.selected {
   pointer-events: none;
 }
 .cd-horizontal-timeline .events a.selected::after {
-  background-color: #251942;
-  border-color: #251942;
+  background-color: #475fca;
+  border-color: #475fca;
 }
 .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #251942;
+  border-color: #475fca;
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
@@ -1176,7 +1186,8 @@ Main Components
   right: 0;
 }
 .no-touch .cd-timeline-navigation a:hover {
-  border-color: #251942;
+  border-color: black;
+  background-color: white;
 }
 .cd-timeline-navigation a.inactive {
   cursor: not-allowed;
@@ -1185,7 +1196,8 @@ Main Components
   background-position: 0 -16px;
 }
 .no-touch .cd-timeline-navigation a.inactive:hover {
-  border-color: #dfdfdf;
+  border-color: black;
+  background-color: white;
 }
 
 .cd-horizontal-timeline .events-content {
