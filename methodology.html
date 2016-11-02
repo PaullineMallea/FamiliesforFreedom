@@ -18,80 +18,44 @@
     <style>
     
     </style>
-
+ 
 
 </head>
-<body>
-<!-- Logo section below -->
+<body style="background-color: white;">
+<!--     N A V A G A T I O N  -->
 
-
-<div style="z-index: 1000;">
-  <div class="row" style="">
-  <div class="col-md-4" >
-  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
-  </div>
-
-<!-- Logo section ^ above -->
-
-<!-- Menu bar below  -->
-
-    <div class="col-md-5"></div>
-
-    <div class="col-md-3">
-      <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
-
-          <img src="images/nav.png" style="width: 40px;">
-            <span class="caret"></span>
-          </button>
-
-            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
-
-     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
-
-      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
-      <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
-
-              <li class="dropdown-submenu" class=>
-                <a tabindex="-1" href="#"><strong>REPORT</strong></a>
-                <ul class="dropdown-menu" style="">
-<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
- -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
-                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
-                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
-                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
-                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-                  </ul>
-        </li>
-  
-      <script type="text/javascript">
-      // $('li.expandable').click(function() {
-      //   $(this).children('ul').toggle();
-      //   return false;
-      // });
-
-$(document).ready(function(){
-$('.dropdown-submenu>a').unbind('click').click(function(e){
-$(this).next('ul').toggle();
-e.stopPropagation();
-e.preventDefault();
-});
-});
-      </script>
-
-      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-      </ul>
-    </div>
-  </div>
+<div class="container-fluid">
+<div class="row" style="background: black;">
+<div class="col-md-12">
+  <ul class="nav">
+    <li><a class="active" href="index.html"><strong>HOME</strong></a></li>
+    <li><a href="about.html"><strong>ABOUT US</strong></a></li>
+    <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+    <li><a href="methodology.html"><strong>METHODOLOGY</strong></a></li>
+    <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
+    <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
+    <li class="dropDown">
+      <a href="#" class="dropBtn">REPORT</a>
+      <div class="dropDown-content">
+          <a href="court.html">The Court</a>
+          <a href="prison.html">The Prison</a>
+          <a href="vacuum.html">The Vacuum</a>
+          <a href="abuse.html">The Abuse</a>
+      </div>
+  </li>
+  <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+  </ul>
+</div>
+</div>
 </div>
 
-<!-- Menu bar above ^  -->
+
+<!-- =========================================== -->
 
 <div style=" width: 100%;" class="c5">
   <div class="row">
   <div class="col-md-12">
-      <h4 style="padding-top: 50px; padding-bottom: 50px;">METHODOLOGY</h4>
+      <h4 style="padding-top: 100px; padding-bottom: 50px;">METHODOLOGY</h4>
 
       <hr>
   </div>
@@ -102,11 +66,11 @@ e.preventDefault();
 
 <!-- report -->
 
-<div class="fullWidth c5" style=" width: 100%; margin-top: 30px; background: white;background-image: url(images/prison.jpg);">
+<div class="fullWidth c5" style=" width: 100%; margin-top: 30px; background: #f7f8f9;background-image: url(images/prison.png);">
     <div class="row">
-    <div class="col-md-6" style="background: white; padding:40px; margin-left: -30px;">
+    <div class="col-md-6" style="background: #f7f8f9; padding:40px; margin-left: -30px;">
 
-  <p>The authors of this report first analyzed the records of habeas petitions and their ensuing adjudication were first analyzed through the Public Access to Court Electronic Records system (PACER). PACER is an electronic public access service of United States federal court documents, allowing users to obtain case and docket information from the United States district courts, among others. Remotely, the authors of the report were able to view:<p>
+  <p>The authors of this report first analyzed the records of habeas petitions and their ensuing adjudication were first analyzed through the Public Access to Court Electronic Records system (PACER). PACER is an electronic public access service of United States federal court documents, allowing users to obtain case and docket information from the United States district courts, among others. Remotely, the authors of the report were able to view:</p>
 
     <ul>
       <li>Lists of all parties and participants in cases, including judges and attorneys</li>
@@ -143,10 +107,15 @@ e.preventDefault();
 
 </div>
 
-<div class="col-md-6" style=" padding:40px;margin-top: 60px;">
+<div class="col-md-6">
+<h4 style="font-size: 45px; padding-top: 100px; color: white; padding-left: 20px; padding-right: 20px;"> "The only way to access documents or to figure out the outcome of habeas petitions filed in the Northern District of Alabama was to travel to the courthouse in Birmingham and physically print out the documents."</h4>
 
 
   </div>
 </div>
+</div>
+
+
+
 </body>
 </html>

@@ -8,30 +8,12 @@
   <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <script src="js/jquery.2.2.4.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
-
-  <script src="js/strikethrough.js"></script>
-
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-
-  <!-- timeline -->
-
-  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset
-<!--   <link rel="stylesheet" href="css/TL.css"> <!-- Resource style -->
- <script src="js/modernizr.js"></script> <!-- Modernizr -->
- 
-  <script src="js/main.js"></script>
-  <script src="js/jquery.mobile.custom.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
     <style>
     
@@ -41,76 +23,41 @@
 </head>
 <body>
 
-<!-- Logo section below -->
+<!--     N A V A G A T I O N  -->
 
-
-<div style="z-index: 1000;">
-  <div class="row" style="">
-  <div class="col-md-4" >
-  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
-  </div>
-
-<!-- Logo section ^ above -->
-
-<!-- Menu bar below  -->
-
-    <div class="col-md-5"></div>
-
-    <div class="col-md-3">
-      <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
-
-          <img src="images/nav.png" style="width: 40px;">
-            <span class="caret"></span>
-          </button>
-
-            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
-
-     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
-
-      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
-      <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
-
-              <li class="dropdown-submenu" class=>
-                <a tabindex="-1" href="#"><strong>REPORT</strong></a>
-                <ul class="dropdown-menu" style="">
-<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
- -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
-                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
-                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
-                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
-                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-                  </ul>
-        </li>
-  
-      <script type="text/javascript">
-      // $('li.expandable').click(function() {
-      //   $(this).children('ul').toggle();
-      //   return false;
-      // });
-
-$(document).ready(function(){
-$('.dropdown-submenu>a').unbind('click').click(function(e){
-$(this).next('ul').toggle();
-e.stopPropagation();
-e.preventDefault();
-});
-});
-      </script>
-
-      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-      </ul>
-    </div>
-  </div>
+<div class="container-fluid">
+<div class="row" style="background: black;">
+<div class="col-md-12">
+  <ul class="nav">
+    <li><a class="active" href="index.html"><strong>HOME</strong></a></li>
+    <li><a href="about.html"><strong>ABOUT US</strong></a></li>
+    <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+    <li><a href="methodology.html"><strong>METHODOLOGY</strong></a></li>
+    <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
+    <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
+    <li class="dropDown">
+      <a href="#" class="dropBtn">REPORT</a>
+      <div class="dropDown-content">
+          <a href="court.html">The Court</a>
+          <a href="prison.html">The Prison</a>
+          <a href="vacuum.html">The Vacuum</a>
+          <a href="abuse.html">The Abuse</a>
+      </div>
+  </li>
+  <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+  </ul>
+</div>
+</div>
 </div>
 
-<!-- Menu bar above ^  -->
 
-<div style=" width: 100%;" class="c5">
+
+<!-- =========================================== -->
+
+<div style="width: 100%;" class="c5">
   <div class="row">
   <div class="col-md-12">
-      <h4 style="padding-top: 50px; padding-bottom: 50px;">Key Findings</h4>
+      <h4 style="padding-top: 100px; padding-bottom: 50px;">Key Findings</h4>
 
       <hr>
   </div>
@@ -121,9 +68,9 @@ e.preventDefault();
 
 <!-- report -->
 
-<div class="fullWidth c5" style=" width: 100%; margin-top: 30px; background: white;background-image: url(images/prison.jpg);">
+<div class="fullWidth c5" style=" width: 100%; margin-top: 30px;background-image: url(images/prison.png);">
     <div class="row">
-    <div class="col-md-6" style="background: white; padding:40px; margin-left: -30px;">
+    <div class="col-md-6" style="background: #f7f8f9; padding:40px; margin-left: -30px;">
 
 <!--     <img src="images/prison.jpg" alt="Prison" style="z-index: -100;">
  -->
@@ -132,12 +79,12 @@ e.preventDefault();
     <p>ICE routinely holds immigrants from countries to which they know they cannot be deported, even when detained immigrants provide letters from their Consulate or Embassy stating that travel documents will not be issued. What is perhaps even more suspicious is when ICE has released all immigrants from a certain country because they cannot secure travel documents except for one individual. This inconsistency, paired with allegations of fraud raises serious red flags that the Court in the Northern District of Alabama has a duty to investigate.</p>
 
 
-    <p>Ultimately, careful review of hundreds of petitions raises a multitude of questions about ICE’s behavior in lieu of the Court’s oversight. These are the very questions courts should be asking and would be asking, were they to engage in the truly individualized inquiry with which they are tasked. Every question raised in every case we will discuss in this report remains unanswered and leaves hundreds more people vulnerable to indefinite and prolonged detention. This will remain true until the Northern District of Alabama takes seriously the liberty of immigrants detained at Etowah and the irreversible, devastating consequences of their detention.</p>
+    <p>Ultimately, careful review of hundreds of petitions raises a multitude of questions about ICE’s behavior in lieu of the Court’s oversight. These are the very questions courts should be asking and would be asking, were they to engage in the truly individualized inquiry with which they are tasked. Every question raised in every case we discuss remains unanswered and leaves hundreds more people vulnerable to indefinite and prolonged detention. This will remain true until the Northern District of Alabama takes seriously the liberty of immigrants detained at Etowah and the irreversible, devastating consequences of their detention.</p>
 
     </div>
     <div class="col-md-6">
 
-    <h4 style="font-size: 45px; padding-top: 100px; color: white; padding-left: 20px; padding-right: 20px;">"Every question raised in every case we have discussed remain unanswered and leave hundreds more people vulnerable to indefinite and prolonged detention."</h4>
+    <h4 style="font-size: 45px; padding-top: 100px; color: white; padding-left: 20px; padding-right: 20px;">"Every question raised in every case we discuss remains unanswered and leaves hundreds more people vulnerable to indefinite and prolonged detention."</h4>
 
 
 </div>
@@ -145,48 +92,81 @@ e.preventDefault();
 </div> 
 
 
-<!--  <!-- slider -->
 
- <div id="scroller">
-  <div class="scrollbox" style="margin-top: 40px;">
-    <div style="background: #5B5F72; padding: 40px; width: 500px;">
 
-    <h3> 1. </h3>
+<!-- <div class="row">
+    <div class="col-md-12" style="padding:50px; margin-top: -40px;">
+
+    <div style="background: white; border:4px solid black; padding: 50px;">
+
+    <h4> 1. </h4>
+
+    <hr>
+
+    <h3>The Court in the Northern District of Alabama should order and hold evidentiary hearings in <b>all</b> cases where there are factual disputes as is required by the Habeas Corpus statute, immediately after the government has responded. Circumstances in which hearings should be held include but are not limited to:</h3>
+
+    </div>
+   </div>
+ -->
+
+  <!-- row 2 -->
+
+  <div class="row" style="margin-left: -20px; margin-right: -10px; margin-top: 50px;" >
+  <div class="col-md-6" style="padding-left: 50px; padding-right:-40px;">
+
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:20px margin-top:20px; height: 500px;">
+
+    <h4> 1. </h4>
 
     <hr>
 
     <h3>Almost all (94.2%) of habeas corpus petitions filed by immigrants detained at Etowah County were filed without a lawyer.</h3>
 
     </div>
+  </div>
+
+  <div class="col-md-6" style="padding:0px 50px 50px 0px;">
 
 
-    <div style="background: #6D7181; padding: 40px; width: 500px;">
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:0px margin-top:20px; height: 500px;">
 
-    <h3> 2. </h3>
+    <h4> 2. </h4>
 
     <hr>
     
-    <h3>Since 2010, the Northern District of Alabama<b>has not granted a single habeas corpus petition.</b></h3>
-
-    </div>
-
-
-    <div style=" background: #808390; padding: 40px; width: 500px;">
-
-     <h3> 3. </h3>
-
-     <hr>
-    
-    <h3>The only habeas corpus petitions the Northern District of Alabama has formally adjudicated and published opinions for have been denials.</h3>
+    <h3>Since 2010, the Northern District of Alabama <b>has not granted a single habeas corpus petition.</b></h3>
      
 
     </div>
 
+    </div>
+
+    </div>
+
+<!-- row 3 -->
+
+ <div class="row" style="margin-left: -20px; margin-right: -10px;" >
+  <div class="col-md-6" style="padding-left: 50px; padding-right:-40px;">
 
 
-    <div style="background: #9395A0; padding: 40px; width: 800px;">
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:20px margin-top:20px; height: 600px;">
 
-     <h3> 4. </h3>
+    <h4> 3. </h4>
+
+     <hr>
+    
+    <h3>The only habeas corpus petitions the Northern District of Alabama has formally adjudicated and published opinions for have been denials.</h3>
+
+    </div>
+  </div>
+
+  <div class="col-md-6" style="padding:0px 50px 50px 0px;">
+
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:0px margin-top:20px; height: 600px;">
+
+    <h4> 4. </h4>
 
      <hr>
     
@@ -195,21 +175,33 @@ e.preventDefault();
 
     </div>
 
-
-    <div style=" background: #A5A7AF; padding: 40px; width: 500px;">
-
-     <h3> 5. </h3>
-
-     <hr>
-    
-    <h3>In the rare instances when the Northern District of Alabama has called for a hearing to assess the legality of an immigrant’s continued detention, ICE removes or releases the detainee and moves to dismiss the habeas petition as moot, thereby circumventing judicial review and leaving the immigrant with no adjudication of the claims that prolonged detention was illegal.  Those released face re-detention without any adjudication of claims that they cannot be deported to the designated country.h3>
-     
+    </div>
 
     </div>
 
-    <div style="background: #B8B9BF; padding: 40px; width: 800px;">
+    <!-- 5 -->
 
-     <h3> 6. </h3>
+    <div class="row" style="margin-left: -20px; margin-right: -10px;" >
+  <div class="col-md-6" style="padding-left: 50px; padding-right:-40px;">
+
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:20px margin-top:20px; height: 700px;">
+
+    <h4> 5. </h4>
+
+     <hr>
+    
+    <h3>In the rare instances when the Northern District of Alabama has called for a hearing to assess the legality of an immigrant’s continued detention, ICE removes or releases the detainee and moves to dismiss the habeas petition as moot, thereby circumventing judicial review and leaving the immigrant with no adjudication of the claims that prolonged detention was illegal.  Those released face re-detention without any adjudication of claims that they cannot be deported to the designated country.</h3>
+
+    </div>
+  </div>
+
+  <div class="col-md-6" style="padding:0px 50px 50px 0px;">
+
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:0px margin-top:20px; height: 700px;">
+
+     <h4> 6. </h4>
 
      <hr>
     
@@ -218,30 +210,65 @@ e.preventDefault();
 
     </div>
 
-
-
-    <div style="background: #CBCBCE; padding: 40px; width: 800px;">
-
-     <h3> 7. </h3>
-
-     <hr>
-    
-    <h3>The habeas corpus challenges unlawful deprivation of liberty; therefore the process is designed for expediency. The Court, however, summarily granted 100% of all extensions sought by ICE providing them with unreasonably long periods to respond to a habeas corpus petitions, further prolonging the detention of the immigrant.</h3>
-     
+    </div>
 
     </div>
 
 
-    <div style="background: #DEDEDE; padding: 40px; width: 900px;">
+<!-- 6 -->
 
+    <div class="row" style="margin-left: -20px; margin-right: -10px;" >
+  <div class="col-md-6" style="padding-left: 50px; padding-right:-40px;">
+
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:20px margin-top:20px; height: 700px;">
+
+    <h4> 7. </h4>
+
+     <hr>
     
-    <h3 style=" text-align: left; margin-top: 60px;">Without the outside interventions of courts, ICE is completely unaccountable, free to abuse its own internal review system for evaluating detention, removing people to countries without valid entry documents, rendering them undocumented, and deporting people to countries that do not legally recognize them. When ICE skirts judicial review by releasing detainees who have filed habeas petitions, ICE prevents the detainee from having a judicial adjudication of his past claim to use as a defense and ICE has re-detained such individuals with no new cause.</h3>
+    <h3>The habeas corpus challenges unlawful deprivation of liberty; therefore the process is designed for expediency. The Court, however, summarily granted 100% of all extensions sought by ICE providing them with unreasonably long periods to respond to a habeas corpus petitions, further prolonging the detention of the immigrant.</h3>
+
+    </div>
+  </div>
+
+  <div class="col-md-6" style="padding:0px 50px 50px 0px;">
+
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:0px margin-top:20px; height: 700px;">
+
+     <h4 style="text-align: left; margin-top: 60px; font-size: 25px;">Without the outside interventions of courts, ICE is completely unaccountable, free to abuse its own internal review system for evaluating detention, removing people to countries without valid entry documents, rendering them undocumented, and deporting people to countries that do not legally recognize them. When ICE skirts judicial review by releasing detainees who have filed habeas petitions, ICE prevents the detainee from having a judicial adjudication of his past claim to use as a defense and ICE has re-detained such individuals with no new cause.</h4>
      
 
-    </div>   
+    </div>
+
+    </div>
+
+    </div>
+
+<!-- Logo section below -->
+
+
+<div class="container-fluid" style="z-index: 1000; background-color: white; padding-top: 0px;">
+  <div class="row" style="padding-top: 50px;">
+  <hr>
+  <div class="col-md-2">
+  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
+  </div>
+
+  <div class="col-md-3" style="padding-top: 25px; padding-bottom: 25px;">
+
+  <p>35 West 31th St, #702 <br> New York, NY 10001 <br> p: <a href="tel:1-646-290-8720">646.290.8720</a> <br> hotline: <a href="tel:1-646-290-5551">646.290.5551</a><br> fax: 800 895 4454<br>e: <a href="mailto:info@familiesforfreedom.org">info@familiesforfreedom.org</a></p>
+
+  </div>
+  <div class="col-md-7" style="padding-top: 70px;">
+  </div>
+  </div>
 </div>
 
-</div>
+
+
+<!-- Logo section ^ above -->
 
 
 </body>

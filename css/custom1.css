@@ -1,0 +1,327 @@
+body {
+  background-color: white;
+}
+
+
+/*===========N A V A G A T I O N ===============
+*/
+
+.nav ul {
+  list-style-type:      none;
+  margin:               0;
+  padding:              0;
+  overflow:             hidden;
+  background-color:     black;
+  text-align:           center;
+  z-index:              1000;
+}
+
+.nav li {
+  display:              inline-block;
+  text-align:           center;
+  font-family:          'Roboto', sans-serif;
+}
+
+.nav li a, .dropBtn {
+  display:              block;
+  color:                white;
+  text-align:           center;
+  padding:              14px 16px;
+  text-decoration:      none;
+  font-family:          'Roboto', sans-serif;
+}
+
+.nav li a:hover, .dropdDwn:hover .dropBtn {
+  background-color:     yellow;
+  color:                black;
+  text-decoration:      none;
+  z-index:              1000;
+
+}
+
+.nav li.dropDown {
+    display:            inline-block;
+    z-index:            1000;
+
+}
+
+.nav .dropDown-content {
+    display:            none;
+    position:           absolute;
+    background-color:   #f9f9f9;
+    min-width:          160px;
+    box-shadow:         0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:            1000;
+
+}
+
+.nav .dropDown-content a {
+    color:            black;
+    padding:          12px 16px;
+    text-decoration:  none;
+    display:          block;
+    text-align:       left;
+    z-index:          1000;
+
+
+}
+
+.nav .dropDown-content a:hover {
+  background-color: yellow;
+  z-index:          1000;
+
+}
+
+.nav .dropDown:hover .dropDown-content {
+    display:        block;
+    z-index:        1000;
+
+}
+
+/*===========N A V A G A T I O N ===============
+*/
+
+/*=============T Y P E    W R I T E R==============*/
+/* DEMO-SPECIFIC STYLES */
+.typewriter h4 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid yellow; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: yellow; }
+}
+
+
+/*============intro page ==================*/
+.c1 #image {
+  padding-left:      50px; 
+  z-index:          -100;
+  position:   absolute;
+}
+
+
+.c1 #hbSmall {
+  font-size:        50px; 
+  margin-top:       -350px; 
+  margin-left:      120px; 
+  text-align:       left; 
+  text-shadow:       2px 1px #DEDEDE;
+}
+
+.c1 #hbBig {
+  font-size:        150px; 
+  margin-top:       -300px;
+  text-shadow:      4px 2px #DEDEDE;"
+}
+
+#typedtext {
+  font-size:        35px;
+  margin-top:       300px;
+  font-family: 'Roboto', sans-serif;
+  color:            white;
+  text-align:       left;
+  letter-spacing:   4px;
+  position:         relative;
+  margin-left:      115px; 
+  margin-right:     100px;
+
+
+  }
+
+  h1 {
+  font-family:        'Oswald', sans-serif;
+  position:           absolute; 
+  top:                400px; 
+  left:               0; 
+  width:              100%; 
+  text-align:         center;
+  color:              #251942;
+  letter-spacing:     5px;
+}
+
+#learnMore {
+  border:             5px solid black;
+  font-family:        'Oswald', sans-serif;
+  color:              black;
+  font-size:          40px;
+  padding:            10px; 
+  width:              150px;
+  margin-left:        0px;
+  text-align:         left;
+  background-color:   white;
+  margin-top:         50px;
+}
+
+
+
+
+/*===#251942=======T A B L E  OF  C O N T E N T S================*/
+
+#title {
+  font-family:        'Oswald', sans-serif;  
+  font-size:          100px;
+  color:              black;
+  letter-spacing:     4px;
+  position:           relative;
+  text-transform:     uppercase;
+
+}
+.TC {
+  font-size: 40px;
+  margin-top: 50px;
+  color: black;
+}
+
+.TC li {
+  padding-top: 20px;
+  color: black;
+  text-decoration: none;
+
+}
+
+.TC li a:hover {
+  background-color:   yellow;
+  text-decoration:      none;
+  z-index:              1000;
+  color:               black;
+
+}
+
+
+
+
+/*==================================================*/
+
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+
+}
+
+
+
+.image { 
+   position:      relative;
+   margin-right:  50%;
+   display:       block;
+   margin:        0;
+   width:         100%;
+}
+
+
+h4 {
+  font-family:        'Oswald', sans-serif;  
+  font-size:        100px;
+  color:            black;
+  text-align:       center;
+  letter-spacing:   4px;
+  position:         relative;
+  text-transform: uppercase;
+
+}
+
+.p {
+    font-family: 'Roboto', sans-serif;
+
+    text-align: justify; 
+    text-justify: inter-word;
+    padding:  60px;
+    color: white;
+    margin: 20px;
+}
+
+.c1 p {
+
+    font-family: 'Roboto', sans-serif;
+    padding-top:    20px;
+    text-align:     ;
+    font-size:      20px; 
+    color:          black;
+    margin-left:     15px;
+
+}
+
+
+#justify p {
+  text-align:     justify; 
+  text-justify:   inter-word;
+  margin-top:     20px; 
+  font-family: 'Roboto', sans-serif;
+  font-size:      15px;
+}
+
+#justify li {
+  text-align:     justify; 
+  text-justify:   inter-word;
+  margin-top:     20px; 
+font-family: 'Roboto', sans-serif;
+  font-size:      15px;
+}
+
+
+.padding1 li {
+font-family: 'Roboto', sans-serif;
+  font-size:      15px;
+  text-align:     left;
+  margin-top:     10px;
+  margin-bottom:  10px;
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+}
+
+#underline {
+  text-decoration: underline;
+  -moz-text-decoration-color: yellow; 
+  text-decoration-color: yellow;
+}
+
+.footnote {
+  display:        none;
+  background:     grey;
+  color:          white;
+font-family: 'Roboto', sans-serif;
+  font-size:      15px;
+  padding:        10px;
+  text-align:     left;
+
+
+}
+
+.show li {
+  display: none;
+}
+
+.expandable li {
+  list-style-type: none;
+
+
+}
+
+#images{
+   text-align:center;
+
+}
+
+
+.hovered {
+  background: #ddd; 
+  
+}

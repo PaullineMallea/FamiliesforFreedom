@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">m
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title> Writ of Habeas Corpus</title>
@@ -8,30 +8,13 @@
   <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <script src="js/jquery.2.2.4.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
-
-  <script src="js/strikethrough.js"></script>
-
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Patrick+Hand+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-
-  <!-- timeline -->
-
-  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset
-<!--   <link rel="stylesheet" href="css/TL.css"> <!-- Resource style -->
- <script src="js/modernizr.js"></script> <!-- Modernizr -->
- 
-  <script src="js/main.js"></script>
-  <script src="js/jquery.mobile.custom.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
     <style>
     
@@ -40,76 +23,40 @@
 
 </head>
 <body>
+<!--     N A V A G A T I O N  -->
 
-<!-- Logo section below -->
-
-
-<div style="z-index: 1000;">
-  <div class="row" style="">
-  <div class="col-md-4" >
-  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
-  </div>
-
-<!-- Logo section ^ above -->
-
-<!-- Menu bar below  -->
-
-    <div class="col-md-5"></div>
-
-    <div class="col-md-3">
-      <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
-
-          <img src="images/nav.png" style="width: 40px;">
-            <span class="caret"></span>
-          </button>
-
-            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
-
-     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
-
-      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
-      <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
-
-              <li class="dropdown-submenu" class=>
-                <a tabindex="-1" href="#"><strong>REPORT</strong></a>
-                <ul class="dropdown-menu" style="">
-<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
- -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
-                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
-                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
-                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
-                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-                  </ul>
-        </li>
-  
-      <script type="text/javascript">
-      // $('li.expandable').click(function() {
-      //   $(this).children('ul').toggle();
-      //   return false;
-      // });
-
-$(document).ready(function(){
-$('.dropdown-submenu>a').unbind('click').click(function(e){
-$(this).next('ul').toggle();
-e.stopPropagation();
-e.preventDefault();
-});
-});
-      </script>
-
-      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-      </ul>
-    </div>
-  </div>
+<div class="container-fluid">
+<div class="row" style="background: black;">
+<div class="col-md-12">
+  <ul class="nav">
+    <li><a class="active" href="index.html"><strong>HOME</strong></a></li>
+    <li><a href="about.html"><strong>ABOUT US</strong></a></li>
+    <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+    <li><a href="methodology.html"><strong>METHODOLOGY</strong></a></li>
+    <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
+    <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
+    <li class="dropDown">
+      <a href="#" class="dropBtn">REPORT</a>
+      <div class="dropDown-content">
+          <a href="court.html">The Court</a>
+          <a href="prison.html">The Prison</a>
+          <a href="vacuum.html">The Vacuum</a>
+          <a href="abuse.html">The Abuse</a>
+      </div>
+  </li>
+  <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+  </ul>
+</div>
+</div>
 </div>
 
-<!-- Menu bar above ^  -->
+
+<!-- =========================================== -->
+
 
 <!-- overlay below -->
 
-<div style="background: #aaaaaa; width: 100%;" class="c5">
+<div style=" width: 100%;" class="c5">
   <div class="row">
 
   <div class="col-md-9">
@@ -133,28 +80,38 @@ e.preventDefault();
          
           <h4 style="color: yellow">Jose</h4>
 
-          <hr>
-
-          <p><b style="color: yellow">Jose</b> wrote in his habeas corpus petition that while he was detained, his nine year old U.S. citizen daughter “was inappropriately touched” by a friend of the family. The incident was reported to the police, criminal charges have been brought against the perpetrator of the offense, and the child is undergoing therapy. <i>The little girl has been crying, acting out, and telling the therapist, “My daddy is in jail but this bad man is not in jail.”</i> The continued detention of Jose is causing tremendous psychological harm to him and his young daughter, especially after her abuse. He is needed at home by his family and his daughter to provide her with a source of comfort and strength through this ordeal.</p>
-
 
           <hr>
+
+          <p><b style="color: yellow">Jose</b>wrote in his habeas corpus petition that while he was detained, his nine year old U.S. citizen daughter “was inappropriately touched” by a friend of the family. The incident was reported to the police, criminal charges have been brought against the perpetrator of the offense, and the child is undergoing therapy. The little girl has been crying, acting out, and telling the therapist, <i>“My daddy is in jail but this bad man is not in jail.”</i> The continued detention of Jose is causing tremendous psychological harm to him and his young daughter, especially after her abuse. He is needed at home by his family and his daughter to provide her with a source of comfort and strength through this ordeal.</p>
+
+
+          <hr style=" margin-top: 60px;">
 
           <h4 style="color: yellow">Bedfords</h4>
 
           <hr>
 
           <p><b style="color: yellow">Bedfords’</b> mother wrote:<i> “Three years ago I had a stroke and also in a coma and was hospitalized for over three months and during that time Bedford never left my side according to the doctors and my family he met with the doctors each day discussing my treatment plan and he even slept at the hospital…in my recovery I totally depended on Bedford due to his flexible work schedule as a plumber to do constant doctor visits, grocery shopping and preparing my meals he also assisted me financially. My prescriptions are very expensive and Bedford could also help me with this expense. We also spent time together sitting in front of the porch talking about the past, taking me to lunch and also sharing his cook food with me too. Bedford was always available all the time making time to help me out all the time however, all of this change since he has been incarcerated.”</i> He owned two homes, had two children, and was held in detention for more than a year despite an official letter explaining that because of his lack of property and kin in country XYZ, a travel document would not be issued.</p> 
+        
+
+
+          <hr style=" margin-top: 60px;">
+
+          <h4 style="color: yellow">Robert</h4>
+
+          <hr>
+
+          <p><b style="color: yellow">Robert</b> is a native of Togo, who cooperated fully with ICE’s attempts to secure travel documents. Presumably when it could not secure a document from Togo, ICE attempted to remove him anyway. According to his habeas corpus petition, ICE took him to a staging ground at Alexandria, Louisiana, where a Deportation Officer (DO) told him that they had no travel documents for him and so they would return him to LaSalle. Five minutes later, the same DO received a text message saying that they had secured travel documents. The next day, ICE took Robert to the Atlanta airport - he asked to see the travel documents multiple times but ICE would not allow him to until they were inside the plane. Inside the plane, they showed Robert an expired Belgian passport with which they were going to send him to Belgium. After that, he refused to comply. Robert’s relationship, if he had one at all, to Belgium was unclear. After Robert raised the incident in his habeas corpus petition in the courts ICE released him on an order of supervision.  There was never any judicial inquiry into the validity of the travel documents that ICE allegedly secured for Robert.</p>
   
 
           </div>
           
           <div class="col-md-6">
 
-
           <hr>
 
-          <h4 style="color: yellow">Bedfords</h4>
+          <h4 style="color: yellow;">Emilio</h4>
 
           <hr>
 
@@ -162,13 +119,23 @@ e.preventDefault();
 
           <hr style=" margin-top: 60px;">
 
-          <h4 style="color: yellow;">Mfefe’s</h4>
+          <h4 style="color: yellow;">Mfefe</h4>
 
           <hr>
 
           <p><b style="color: yellow">Mfefe’s</b> fiancée submitted a letter of support in favor of his habeas corpus petition. She wrote, “I want to do everything in my power to help Mfefe because he is the love of my life and I can’t see going one more day without Mfefe being here with me. All I want to do is to marry him and have a family, but him being in Alabama isn’t helping this to happen. I cannot move on with him because he is in Alabama.” Mfefe had no criminal record. He was held for almost a year.</p>
 
 
+          <hr>
+
+          <h4 style="color: yellow;">Ibrahim</h4>
+
+          <hr>
+
+          <p>The name of the story is <b style="color: yellow">Ibrahim</b>. In the case of <b>five Somalis detained at Etowah</b> the petitioners included an official attestation from the Somali Permanent Mission to the United Nations stating that <i>“it is impossible to retrieve any records concerning civil status”</i> from Somalia and that there were no <i>“consulate services for issuing travel documents or repatriation procedures”</i>. Still, the government response to their habeas corpus petitions included the following language: <i>“the government of Somalia has not indicated that they would not authorize a travel document for”</i> the detainees, that their <i>“deportation is in the very foreseeable future,”</i> and that <i>“there is no reason to believe that [they] will not be removed in the very foreseeable future.”</i> When they raised this issue in the Court, ICE released four detainees and removed one to an unnamed place before the Court could inquire. ICE can and has re-detained Somalis periodically despite the fact that the Somali Permanent Mission continues to state that it cannot issue travel documents. Thus, without the court’s protection these Somali’s continue to live in fear of arbitrary, indefinite detention. <b>Ibrahim</b>, who submitted to the Court the same letter from the official at the Somali Permanent Mission to the United Nations stating that travel documents would not issued, was the <b>only one</b> of the five Somalis to be removed. ICE put Ibrahim on a plane leaving the United States before the Court reviewed his case. Because the Court does not require ICE to submit proof of travel documents or even the country to which a detainee was deported, we have no way of knowing to which country Ibrahim was deported.</p>
+
+
+         
           </div>
           </div>
           </div>
@@ -182,7 +149,7 @@ e.preventDefault();
 <div style="cursor: pointer; position: relative; margin-left: 165px; margin-top: 20px;" onclick="openNav()"><img src="images/Folder.svg.png" style="width: 50px; margin-left: 35px"></div>
 
 
-<h3 id="uppercase" style="font-size:12px; cursor: pointer; margin-left: 180px;" onclick="openNav()">Case Studies</h3>
+<h3 id="uppercase" style="font-size:12px; cursor: pointer; margin-left: 180px; color:black" onclick="openNav()">Case Studies</h3>
 
 
 
@@ -207,9 +174,10 @@ e.preventDefault();
 <!-- overlay of case study above -->
 
 
-<!-- report
- -->
-<div style="background: #aaaaaa; width: 100%;" class="c5">
+
+<!-- report -->
+
+<div style="background: white; width: 100%;" class="c5">
   <div class="row">
 
     <div class="col-md-12" >
@@ -221,20 +189,114 @@ e.preventDefault();
   </div>
 </div>
 
-
-
-<div style="background: white; width: 100%;" class="c5 fullWidth">
+<div style="background:#f7f8f9; width: 100%;margin-top: 30px;" class="c5 fullWidth">
     <div class="row">
-    <div class="col-md-12" style="background: white; border: padding-top: 20px; padding-bottom: 0px; margin-top: 30px;">
+    <div class="col-md-12" style="background: #f7f8f9
+; border: padding-top: 20px; padding-bottom: 0px; margin-top: 30px;">
 
-    <h6 style="color: black;">ICE ABUSE HAS DEVASTATING IMPACTS ON THE LIVES OF DETAINEES <br>AND THEIR LOVED ONES</h6>     
+
+    <h6 id="uppercase" style="color: black;">ICE Flouts the Supreme court by Generalizing THE Process of Securing Travel Documents an inherently individualized process</h6> 
+  </div>
+  </div>
+
+    <div class="row c5" style="background: #f7f8f9
+; padding: 20px;">
+    <div class="col-md-6">
+
+    <p>Immigration and Customs Enforcement uses stock language in its submissions to the Courts about the likelihood of travel documents being issued that are often dishonest or internally contradictory. In instances where filing a habeas corpus petition does not immediately result in a detainee’s removal from the United States or release on an Order of Supervision, ICE, represented by the U.S. Attorney’s office, files a response with the Court. In the 97.5% of habeas corpus petitions that claimed that travel documents were the source of their prolonged detention, the response essentially recites the facts of an immigrant’s conviction, deportation case, and custody, and lists ICE’s attempts to secure a travel document and concludes with a variation of the <u>exact same language, the overwhelming majority of the time:</u> </p>
+
+    <h3 style="padding: 30px; color: black; font-size: 25px;"><i>“The Government of XYZ has not declined to issue a travel document in the Petitioner’s case. The government of XYZ has issued travel documents in the past, and there is no reason to believe that the Government of XYZ will not issue a travel document in this matter. Based upon this officer’s experience and expertise, I believe that ICE will secure a travel document for the petitioner from the Government of XYZ in the reasonably foreseeable future.”</i></h3> 
+
+  <p>On its face, the phrase is a mechanical recitation of what the Supreme Court required in their ruling on Zadvydas, in order to prolong an immigrant’s detention beyond the six month point. ICE believes that as long it claims that a detainee is removable in the ‘reasonably foreseeable future’, it is compliant with the Supreme Court ruling. However, the range of circumstances with which ICE uses this phrase suggests that the Courts should be rigorously reviewing these claims and require a greater evidentiary showing in order to continue the detention of an immigrant. Furthermore, securing travel documents is an inherently individualized process that turns on numerous factors that could take a very long time to resolve. These factors include the existence of birth records and ability to locate them and confirm their validity, embassy cooperation and sworn affidavits from family members who can attest to a detainee’s citizenship. </p>
+
+  <p>Splitting the phrase ICE uses to justify ongoing detention into its component parts and analyzing each in the context of various types of issues raised in the Etowah habeas petitions, demonstrates that ICE’s submissions are conclusory and cannot justify ongoing detention:</p>
+
+
+  <p>The first part of ICE’s generic statements on travel documents - <i>“[t]he Government of XYZ has not declined to issue a travel document in the Petitioner’s case,”</i> is merely a vague claim and in many instances, ICE is ignoring concrete individualized evidence that the embassy will not issue travel documents. ICE should not be able to use the fact that the embassy has not declined to issue documents as evidence that such documents will be forthcoming. When an embassy cannot identify a detainee as a citizen or will not issue travel documents – as is its right as a sovereign nation – detainees often secure the denial in writing. Detainees share these documents with ICE, and if they file habeas corpus petitions, often include such official letters as proof that their removal is not reasonablyforeseeable. The following is an example of ICE’s disregard of such official letters:</p>  
+
+  <p>In the case of<b> five Somalis detained at Etowah</b> the petitioners included an official attestation from the Somali Permanent Mission to the United Nations stating that <i>“it is impossible to retrieve any records concerning civil status” from Somalia and that there were no “consulate services for issuing travel documents or repatriation procedures”</i>. Still, the government response to their</p>
+
+  </div>
+  <div class="col-md-6">
+
+
+<p>habeas corpus petitions included the following language: “the government of Somalia has not indicated that they would not authorize a travel document for” the detainees, that their “deportation is in the very foreseeable future,” and that “there is no reason to believe that [they] will not be removed in the very foreseeable future.” When they raised this issue in the Court, ICE released four detainees and removed one to an unnamed place before the Court could inquire. ICE can and has re-detained Somalis periodically despite the fact that the Somali Permanent Mission continues to state that it cannot issue travel documents. Thus, without the court’s protection these Somali’s continue to live in fear of arbitrary, indefinite detention.</p>
+
+  <p><b>Ibrahim</b>, who submitted to the Court the same letter from the official at the Somali Permanent Mission to the United Nations stating that travel documents would not issued, was the <b>only one</b> of the five Somalis to be removed. ICE put Ibrahim on a plane leaving the United States before the Court reviewed his case. Because the Court does not require ICE to submit proof of travel documents or even the country to which a detainee was deported, we have no way of knowing to which country Ibrahim was deported.</p> 
+
+  <p>The second part of ICE’s generic statement is about the likelihood of securing travel documents: <i>“the Government of XYZ has issued travel documents in the past, and there is no reason to believe that the Government of XYZ will not issue a travel document in this matter,”</i> is inherently misleading. A review of habeas corpus petitions filed in the NDAL reveals that although ICE may have been able to remove some immigrants to a particular country, ICE was unable to secure travel documents for many other habeas corpus petitioners from the same country. Put another way, ICE’s historic ability to secure travel documents for some set of individuals from a particular country is not a sufficient indication of the likelihood of removal in the future or in the particular case at hand. There are any number of obstacles to a country’s ability to issue travel documents - from petitioner’s having come to the United States at such an early age, before records were digitized, to being born in rural areas where there was no government presence to issue birth certificates, to not being able to identify living family members who can substantiate an individual’s citizenship. These are highly individualized factors; for ICE to ever claim with 100% certainty that travel documents are forthcoming simply because some individuals have been deported to a specific country, as ICE regularly does with the courts, is wholly misleading.</p>
+
+  <p>The final sentence in ICE’s stock language: <i>“Based upon this officer’s experience and expertise, I believe that ICE will secure a travel document for the petitioner from the Government of XYZ in the reasonably foreseeable future,”</i> is also misleading. Before ICE lists this stock paragraph it often recites its attempts to secure a travel document. The combination is often contradictory. Sometimes ICE will have contacted an embassy literally dozens of times, enlisted the help of the Headquarters Travel Document Unit (ICE HQTDU) and submitted formal applications to the embassy or consulate, and still have no meaningful result or response. Other times, ICE uses this generic language with respect to countries where they have not been able to secure travel documents in the past few years.  After all of that, claiming that ‘based on experience and expertise, a travel document is forthcoming’, is meaningless. If anything, officer’s experience and expertise should reveal that travel documents could be forthcoming, they could take months or years to be issued, or they could never come at all.</p>
+
+
+    </div>
+
+  </div>
+</div>
+
+<div style="background: #f7f8f9
+; width: 100%; padding-bottom: 40px;" class="c5 fullWidth">
+    <div class="row">
+    <div class="col-md-12" style="background: #f7f8f9
+; border: padding-top: 20px; padding-bottom: 0px; margin-top: 30px;">
+
+    <hr>
+
+    <h6 id="uppercase" style="color: black;">the CourtS’ Failure to Adjudicate Habeas Petitions has Left An Open Question as to Whether ICE Obtains Fraudulent Travel Documents</h6> 
+  </div>
+  </div>
+
+    <div class="row" style="background: #f7f8f9
+; padding: 0px;">
+    <div class="col-md-6" id="justify">
+
+    <p>Multiple habeas corpus petitions contained allegations by detainees that ICE was attempting to deport them with fraudulent travel documents. Because of the total lack of involvement by the Court, the validity of these allegations remains unexamined. The following allegations by detainees raise serious concerns as to the lengths that ICE will go to when a travel document is not readily available.</p>
+
+    <p><b>Robert</b> is a native of Togo, who cooperated fully with ICE’s attempts to secure travel documents. Presumably when it could not secure a document from Togo, ICE attempted to remove him anyway. According to his habeas corpus petition, ICE took him to a staging ground at Alexandria, Louisiana, where a Deportation Officer (DO) told him that they had no travel documents for him and so they would return him to LaSalle. Five minutes later, the same DO received a text message saying that they had secured travel documents. The next day, ICE took Robert to the Atlanta airport - he asked to see the travel documents multiple times but ICE would not allow him to until they were inside the plane. Inside the plane, they showed Robert an expired Belgian passport with which they were going to send him to Belgium. After that, he refused to comply. Robert’s relationship, if he had one at all, to Belgium was unclear. After Robert raised the incident in his habeas corpus petition in the courts ICE released him on an order of supervision.  There was never any judicial inquiry into the validity of the travel documents that ICE allegedly secured for Robert.</p>
+
+
+    <p>The case of William, who arrived in the United States by boat from Jamaica in the 1990s at the age of 10, illustrates ICE’s use of failure to comply status to prolong an immigrant’s confinement. William was abandoned by his mother in Jamaica and had no other stated family.  ICE believed that William was a citizen of Trinidad and Tobago. ICE claimed that William failed to provide any identification and that his only excuse for lack of documentation was his “lack of family.” In other words, despite the fact that William came to the US by boat as a ten year old child ICE blamed him for his lack of family and for the fact that he has no proof of Trinidadian identity.  William spent a year and half in detention after receiving a final order of removal despite the fact that the Embassy of the Republic of Trinidad and Tobago provided an official letter stating that they were not able to confirm William’s identity and therefore could not legally issue travel documents. When ICE could not secure a travel document for <b>William</b>, it brought criminal charges against him for failing to comply (failing to comply is a federal crime for which prison sentences can be imposed, but unlike regular FTC status, require actual criminal proceedings). At the time ICE had him charged with failing to comply, William already had a letter in his possession from the Embassy of the Republic of Trinidad and Tobago stating: <i>“After exhaustive searches of the records held at the Immigration Division, Ministry of National Security, and the Register of Births and Deaths of the Registrar General’s Department, no record was found pertaining to the birth of William, born on July 5th, 1965 in Trinidad and Tobago neither was there any record of the issue of any travel document to anyone holding that biometric information…it will not be possible to issue a travel document in his favour.”</i> Although ICE clearly had this information, they continued to detain William and actually filed criminal charges against William in January 2012 for failing to comply. This charge was dismissed by the District Court of New Mexico in May 2012. Despite this dismissal and a letter from the Embassy of the Republic of Trinidad and Tobago denying the issuance of travel documents, ICE detained William for another five months, until he filed a habeas corpus petition. When William finally signaled his unlawful detention to the Court in the Northern District of Alabama, ICE released William on an order of supervision.  There was no judicial scrutiny over ICE’s behavior in this case and William remains vulnerable to re-detention.</p>
+
+  </div>
+  <div class="col-md-6" id="justify">
+
+    <p><b>Johnathan</b> expressed grave concern that the emergency travel document allegedly procured from Nigeria for him had been procured without his signature. His wife spoke to the consulate who said that in order for such a certificate to be produced, the consulate would have to speak to the detainee - something that never occurred. His habeas corpus petition was denied by the Court, who stated that <i>“[r]egardless of whether J’s signature on the travel document is a forgery, J fails to state a claim for relief under Zadvydas because he “has not provided evidence of a good reason to believe that there is no significant likelihood of removal in the reasonably foreseeable future.”</i> We do not know what happened to him.</p> 
+
+    <p>In light of such allegations of fraud, one of the biggest questions remains where ICE deports people who have alleged that documents have been forged. In <i>43%</i> of the cases where ICE deported detainees, ICE fails to inform the Court of the country of removal and fails to include any form of travel document to assure the Court that detainees were able to lawfully and safely enter the receiving country. Without court involvement, we have no way of knowing how many detainees have been deported illegally.</p> 
+
+
+
+
+
+  </div>
+</div>
+</div>
+
+
+  </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<div style="background: #f7f8f9
+; width: 100%; padding-bottom: 40px;" class="c5 fullWidth">
+    <div class="row">
+    <div class="col-md-12" style="background: #f7f8f9
+; border: padding-top: 20px; padding-bottom: 0px; margin-top: 30px;">
+
+    <hr>
+
+    <h6> ICE ABUSE HAS DEVASTATING IMPACTS ON THE LIVES OF DETAINEES <br>AND THEIR LOVED ONES</h6>     
     </div>
   </div>
 
-    <div class="row" style="background: white; padding: 0px;">
-    <div class="col-md-6" id="justify">
+    <div class="row" style="background: #f7f8f9
+; padding: 0px; margin-top: 20px;">
+    <div class="col-md-6">
 
-    <p>The defining characteristic of detention in civil immigration facilities is a profound loss of liberty. Immigrants are locked up, unable to enjoy basic freedoms and incapable of accessing their families and communities. Unlike individuals detained under the criminal system who often have specific sentences – with a start and end date - there is no definitive end for detained immigrants. There are so many variables in the removal process and so few procedural protections to ensure that detainees have some sense of the duration of their detention. While civil detention is allegedly non-punitive and administrative in nature, and criminal incarceration is rehabilitative and punitive, even a general look at the reality of immigration detention renders the distinction meaningless. .</p>
+    <p>The defining characteristic of detention in civil immigration facilities is a profound loss of liberty. Immigrants are locked up, unable to enjoy basic freedoms and incapable of accessing their families and communities. Unlike individuals detained under the criminal system who often have specific sentences – with a start and end date - there is no definitive end for detained immigrants. There are so many variables in the removal process and so few procedural protections to ensure that detainees have some sense of the duration of their detention. While civil detention is allegedly non-punitive and administrative in nature, and criminal incarceration is rehabilitative and punitive, even a general look at the reality of immigration detention renders the distinction meaningless.</p>
     
     <hr>
 
@@ -249,7 +311,7 @@ e.preventDefault();
     </div>
 
 
-    <div class="col-md-6" id="justify">
+    <div class="col-md-6">
 
      <p><strong>Bedfords’</strong> mother wrote: <i>“Three years ago I had a stroke and also in a coma and was hospitalized for over three months and during that time Bedford never left my side according to the doctors and my family he met with the doctors each day discussing my treatment plan and he even slept at the hospital…in my recovery I totally depended on Bedford due to his flexible work schedule as a plumber to do constant doctor visits, grocery shopping and preparing my meals he also assisted me financially. My prescriptions are very expensive and Bedford could also help me with this expense. We also spent time together sitting in front of the porch talking about the past, taking me to lunch and also sharing his cook food with me too. Bedford was always available all the time making time to help me out all the time however, all of this change since he has been incarcerated.”</i> He owned two homes, had two children, and was held in detention for more than a year despite an official letter explaining that because of his lack of property and kin in country XYZ, a travel document would not be issued. </p> 
 
@@ -266,38 +328,6 @@ e.preventDefault();
 </div>
 
 
-
-<div style="background: white; width: 100%; padding-bottom: 20px;" class="c5 fullWidth">
-    <div class="row">
-    <div class="col-md-12" style="background: white; border: padding-top: 20px; padding-bottom: 0px; margin-top: 30px;">
-
-    <hr>
-
-    <h6 style="color: black;">IMMIGRANTS ARE BEING DENIED CUSTODY REVIEW OF THEIR DETENTION BECAUSE OF ICE’s FRIVOLOUS ACCUSATIONS</h6> 
-  </div>
-  </div>
-
-    <div class="row" style="background: white; padding: 0px;">
-    <div class="col-md-6" id="justify">
-
-    <p>Our review of habeas corpus petitions in the Northern District of Alabama revealed ICE’s continuing misuse of the failure to comply status to prolong the detention period for immigrants who are unlikely to be removed. When ICE issues a failure to comply notice, it is no longer required to conduct POCR, including at the 180 day mark, where ICE is required to conduct a more rigorous inquiry.<span class="clickme" style="color: blue; font-size:18px;"><sup>[3]</sup></span><span class="footnote" style="float: left; width: 200px; margin: 20px 20px 20px 20px;">[3] DHS OIG Report, 5</span> Put simply, once a detainee has been labeled as failing to comply, ICE claims the authority to detain that person <b>indefinitely</b>. An internal Department of Homeland Security (DHS) Office of the Inspector General Report published in 2007 found that there were many cases where ICE incorrectly issues a Failure To Comply warning or issues one without sufficient evidence or adequate justification.<span class="clickme" style="color: blue; font-size:18px;"><sup>[4]</sup></span><span class="footnote" style="float: left; width: 200px; margin: 20px 20px 20px 20px;">[4] Id at 1.</span> Our review of habeas petitions filed since revealed that problems with ICE’s use of the failure to comply status persist.</p>
-
-    <p>ICE misuses the failure to comply status. The fact that when an immigrant who has filed a habeas corpus petition in the Court is released on an order of supervision after ICE issued multiple failure to comply notices provides at least some evidence that ICE recognizes that the continued detention of the immigrant is unconstitutional.</p>
-
-    <p>The case of William, who arrived in the United States by boat from Jamaica in the 1990s at the age of 10, illustrates ICE’s use of failure to comply status to prolong an immigrant’s confinement. William was abandoned by his mother in Jamaica and had no other stated family.  ICE believed that William was a citizen of Trinidad and Tobago. ICE claimed that William failed to provide any identification and that his only excuse for lack of documentation was his “lack of family.” In other words, despite the fact that William came to the US by boat as a ten year old child ICE blamed him for his lack of family and for the fact that he has no proof of Trinidadian identity.</p>
-    
-    </div>
-
-    <div class="col-md-6" id="justify">
-
-    <p>William spent a year and half in detention after receiving a final order of removal despite the fact that the Embassy of the Republic of Trinidad and Tobago provided an official letter stating that they were not able to confirm William’s identity and therefore could not legally issue travel documents. Although ICE clearly had this information, they continued to detain William and actually filed criminal charges against William in January 2012 for failing to comply. This charge was dismissed by the District Court of New Mexico in May 2012. Despite this dismissal and a letter from the Embassy of the Republic of Trinidad and Tobago denying the issuance of travel documents, ICE detained William for another five months, until he filed a habeas corpus petition. When William finally signaled his unlawful detention to the Court in the Northern District of Alabama, ICE released William on an order of supervision.  There was no judicial scrutiny over ICE’s behavior in this case and William remains vulnerable to re-detention.</p>
-
-    <p>DHS itself has recognized field officers’ abuse of the failure to comply label. The abuse of this label enables ICE to prolong the detention of individuals even in cases where ICE knows it will not be able to effectuate the immigrant’s removal. The fact that ICE sometimes releases immigrants they have charged with failure to comply once the  detainees  filed habeas corpus petitions is an indication of ICE”s concerns that its actions would not hold up to rigorous judicial scrutiny. However, in the absence of such scrutiny as is the case in the Northern District of Alabama, ICE is not held accountable for indefinitely detaining immigrants.</p>
-
-
-  </div>
-  </div>
-</div>
 
 
 
@@ -317,6 +347,9 @@ e.preventDefault();
   </script>
 
 
+
+  </div>
+</div>
 
 </body>
 </html>

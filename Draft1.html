@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
 
+
   <script src="js/jquery.2.2.4.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
@@ -50,105 +51,80 @@
 
 
 <style>
+
+
+
 </style>
 
 
 </head>
-<body>
+<body style="background-color: white;">
 
-<!-- Logo section below -->
+<!--     N A V A G A T I O N  -->
 
-
-<div style="z-index: 1000;">
-  <div class="row" style="">
-  <div class="col-md-4" >
-  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
-  </div>
-
-<!-- Logo section ^ above -->
-
-<!-- Menu bar below  -->
-
-    <div class="col-md-5"></div>
-
-    <div class="col-md-3">
-      <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
-
-          <img src="images/nav.png" style="width: 40px;">
-            <span class="caret"></span>
-          </button>
-
-            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
-
-     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
-
-      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
-      <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
-
-              <li class="dropdown-submenu" class=>
-                <a tabindex="-1" href="#"><strong>REPORT</strong></a>
-                <ul class="dropdown-menu" style="">
-<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
- -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
-                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
-                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
-                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
-                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-                  </ul>
-        </li>
-  
-      <script type="text/javascript">
-      // $('li.expandable').click(function() {
-      //   $(this).children('ul').toggle();
-      //   return false;
-      // });
-
-$(document).ready(function(){
-$('.dropdown-submenu>a').unbind('click').click(function(e){
-$(this).next('ul').toggle();
-e.stopPropagation();
-e.preventDefault();
-});
-});
-      </script>
-
-      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-      </ul>
-    </div>
-  </div>
+<div class="container-fluid">
+<div class="row" style="background: black;">
+<div class="col-md-12">
+  <ul class="nav">
+    <li><a class="active" href="index.html"><strong>HOME</strong></a></li>
+    <li><a href="about.html"><strong>ABOUT US</strong></a></li>
+  <!--   <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+    <li><a href="methodology.html"><strong>METHODOLOGY</strong></a></li>
+    <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
+    <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
+    <li class="dropDown">
+      <a href="#" class="dropBtn">REPORT</a>
+      <div class="dropDown-content">
+          <a href="court.html">The Court</a>
+          <a href="prison.html">The Prison</a>
+          <a href="vacuum.html">The Vacuum</a>
+          <a href="abuse.html">The Abuse</a>
+      </div>
+  </li>
+  <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+  </ul> -->
+</div>
+</div>
 </div>
 
-<!-- Menu bar above ^  -->
+
+<!-- =========================================== -->
+
 
 <div class="c1">
-  <div class="row">
-      <div class="col-md-12">
-      <span id="image"><img src="images/JusticeG.png" alt="Lady Justice"></span>
+       <div class="row" style="margin-top: 100px;">
+      <span id="image" style="margin-top: 0px;"><img src="images/JusticeG.png" alt="Lady Justice"></span>
+      <div class="col-md-5" style="padding-left: 200px;">
+      <h4 style=" font-size:20px; text-transform: uppercase; text-align: left;"">The Writ of</h4>
+      <h4 style="text-align: left; text-shadow: 4px 2px #C6C8CA; color: #475FCA; font-size: 110px;"> Habeas Corpus</h4>
 
-      <h1 id="hbSmall"> WRIT OF </h1>
-      <h1 id="hbBig" >HABEAS CORPUS</h1>
+      <hr>
 
+      <p style="font-size: 20px; text-align: left; margin-top: -15px;">How a United States District Court Circumvents Oversight of Unlawful Detention.</p>
 
-      </div>
-  </div>
-
-<div class="col-md-12" style=" margin-top: -120px; text-align:center; ">
-  <div class="row">
-  <div class="col-md-12">
-      <h4 style="padding-top: 30px; font-size: 20px; color: white;background;">How a United States District Court Circumvents Oversight of Unlawful Detention</h4>
-      </div>
+      <hr>
+    
     </div>
-</div>
-</div>
+
+    <div class="col-md-3">
+    </div>
+
+
+    <div class="col-md-4">
+
+      <div class="col-md-3" style="margin-top:">
+      <button type="button" onclick="location.href='tableofcontents.html';" id="learnMore">SEE REPORT</button>
+    </div>
+    </div>
+    </div>
+    </div>
 
 
 
-<div id="box3" class="c2" style="background-color: #DEDEDE; height: auto; margin-top: 0px; padding-bottom: 40px;">
+<div id="box3" style=" height: auto; margin-top: 100px; padding-bottom: 0px;">
 
-  <div class="row">
-    <div class="col-md-4" style="background: white;">
+  <div class="row c2">
+    <div class="col-md-4">
 
       <h3 >Habeas Corpus</h3>
 
@@ -160,7 +136,7 @@ e.preventDefault();
    
 
 
-    <div class="col-md-4" style="margin-left: -4px; background: white;">
+    <div class="col-md-4" style="margin-left: -4px;">
  
       <h3>Importance</h3>
 
@@ -169,7 +145,7 @@ e.preventDefault();
     </div>
    
 
-    <div class="col-md-4" style="margin-left: -4px; background: white;">
+    <div class="col-md-4" style="margin-left: -4px;">
 
         <h3>Fame</h3>
 
@@ -197,32 +173,27 @@ e.preventDefault();
 </div>
 
 
-<div id="box3" class="c2" style="background-color: white; height: auto; ">
-  <div class="row">
-  <div class="col-md-12">
-
-  <hr>
-
-   <h3 style="text-transform: uppercase; margin-bottom: 40px;"> Process of filing Habeas: Law vs. Reality</h3> 
-
-  <hr>
+<!-- Filing Habeas section -->
 
 
-<div class="fullWidth"> 
-<div class="row">
-<div class="col-md-12">
+<div style="background: #f7f8f9" class="c5">
+<div class="row fullWidth" style="margin-top: 20px;">
+<div class="col-md-12" style="padding-top: 50px;">
 
-<section style="background: white; height: 800px; padding-top: 0px; margin-top: -10px;" class="cd-horizontal-timeline">
+<h4 style="text-align: left; text-shadow: 4px 2px #C6C8CA; color: black; font-size: 50px; text-align:center;">  Process of filing Habeas: Law vs. Reality </h4>
+
+
+<section style=" height: auto; margin-bottom: 0px;" class="cd-horizontal-timeline">
 
   <div class="timeline" >
     <div class="events-wrapper">
       <div class="events">
         <ol >
           <li ><a href="#0" data-date="30/01/2014" class="selected">File Habeas</a></li>
-          <li><a href="#0" data-date="30/02/2014">Court Order to Respond</a></li>
+          <li><a href="#0" data-date="30/02/2014">Court Order</a></li>
           <li><a href="#0" data-date="30/04/2014">Extension</a></li>
-          <li><a href="#0" data-date="30/05/2014">ICE Responds</a></li>
-          <li><a href="#0" data-date="30/07/2014">Hearing</a></li>
+          <li><a href="#0" data-date="30/05/2014">Hearing</a></li>
+          <li><a href="#0" data-date="30/07/2014">Denial</a></li>
           <li><a href="#0" data-date="30/09/2014">Fact</a></li>
           
         </ol>
@@ -242,24 +213,47 @@ e.preventDefault();
 <!-- 1 -->
 
 
-  <div class="events-content" style=" height: 550px; padding: 0px; margin-bottom: 100px;">
+  <div class="events-content" style=" height: 700px;">
     <ol>
       <li class="selected" data-date="30/01/2014">
 
         <div class="center"><img src="images/Doc.png" alt="File Habeas Corpus" style="height:100px;"></div>
 
-        <h3 style="margin-bottom: 20px; margin-top: 20px;text-align: center;">File Habeas</h3>
+        <h4 style="margin-bottom: 20px; margin-top: 20px;text-align: center; color: black; font-size: 40px;">Habeas Corpus Filed </h4>
 
-        <hr style="padding-top: 20px;"> 
+        <hr style="padding-top:20px; padding-bottom: 20px;">
 
-        <div class="fullWidth" style=" border: 5px solid yellow; padding: 20px;">
+         <div class="row">
 
-        <h3 style="text-align: center; text-transform: uppercase;"> In the Northern Disrict of Alabama:</h3>
+        <div class="col-md-6">
 
-        <h3 style="color: grey; text-align: center; margin-top: 20px; "><u style="font-size: 50px;">95%</u> of immigrants detained file Pro Se</h3> </span>
+        <div style="padding-top: 20px;">
+        <img src="images/calendar.png" alt="File Habeas Corpus" style="height:100px; opacity: 0.3;"> 
+        <img src="images/calendar.png" alt="File Habeas Corpus" style="height:100px; opacity: 0.4;">
+        <img src="images/calendar.png" alt="File Habeas Corpus" style="height:100px;opacity: 0.5;">
+        </div>
+        <img src="images/calendar.png" alt="File Habeas Corpus" style="height:100px;opacity: 0.6;">
+        <img src="images/calendar.png" alt="File Habeas Corpus" style="height:100px;opacity: 0.7;">
+        <img src="images/calendar.png" alt="File Habeas Corpus" style="height:100px;opacity: 0.8;">
 
-        <p style="color: grey; text-align: center;" style="font-size: 20px;"> That means without a Lawyer.</p>
+        <h3 style="font-size: 30px; text-align: left;padding-top: 20px; color: black">6 Months </h3>
 
+
+        <p style="margin-bottom: 20px;"> Once an immigrant has been <b style="color:black;">detained for six months after being ordered deported, their detention becomes unlawful</b>. Immigrant detainees then seek relief by filing a habeas in federal district court - only if the government can justify their detention should it continue.</p>
+
+        </div>
+
+        <div class="col-md-6">
+
+
+        <div style=" border: 5px solid yellow; padding: 50px; margin-top: 20px;">
+
+        <h3 style="text-align: left; text-transform: uppercase; color:black;"> In the Northern Disrict of Alabama:</h3>
+
+        <h3 style="text-align: left;padding-top: 10px;"><b style="font-size: 50px; color:black;">95%</b></h3> 
+        <p style="margin-top:-5px;">of habeas corpus petitions filed in the Northern District of Alabama are filed pro se, meaning immigrants are writing and filing these petitions <b style="color:black;">without a lawyer.</b></p> 
+        </div>
+        </div>
         </div>
 
       </li>
@@ -270,22 +264,43 @@ e.preventDefault();
       <li data-date="30/02/2014">
         <div class="center"><img src="images/court.png" alt="File Habeas Corpus" style="height:100px;"></div>
 
-        <h3 style="margin-top: 20px;text-align: center; text-transform: uppercase;">This is what <u>should</u> happen:</h3>  
-      
-        <p style="text-align: center; color: grey; margin-bottom: 20px;margin-top: 20px;">Court sends ICE a court order to respond within 3 days.</p>
-      
-        <hr style="padding-top: 20px;"> 
+    
+          <h4 style="margin-bottom: 20px; margin-top: 20px;text-align: center; color: black; font-size: 40px;">Court Order</h4>
 
-        <div class="fullWidth" style=" border: 5px solid yellow; padding: 20px; margin-bottom: 100px;"">
+          <hr style="padding-top:20px; padding-bottom: 20px;">
 
-        <h3 style="text-align: center; text-transform: uppercase;"> This is what is happening:</h3>
+        <div class="row">
+        <div class="col-md-6" style="">
+
+          <h3 style="margin-top: 55px;text-align: left; text-transform: uppercase; color: black;">What <u>should</u> happen:</h3>  
+
+          <img src="images/threedays.png" alt="File Habeas Corpus" style="height:70px; opacity: 0.3;">
+          <h3 style="font-size: 30px; text-align: left;padding-top: 20px; color: black">3 days </h3>
+
+          <p style="text-align: left; color: grey; margin-bottom: 20px;margin-top: 20px;">Court sends the government (Immigration and Customs Enforcement) an order to respond within <b style="color:black;">3 days.</b></p>
+        </div>
+
+        <div class="col-md-6" style="">
+
+          <div class="fullWidth" style=" border: 5px solid yellow; padding: 50px; margin-bottom: 100px;"">
+
+          <h3 style="text-align: left; text-transform: uppercase;color: black;"> What is happening:</h3>
+
+          <img src="images/fivedays.png" alt="File Habeas Corpus" style="height:70px; opacity: 0.3;">
+          <img src="images/fivedays.png" alt="File Habeas Corpus" style="height:70px; opacity: 0.3;">
+          <img src="images/fivedays.png" alt="File Habeas Corpus" style="height:70px; opacity: 0.3;">
+          <img src="images/fivedays.png" alt="File Habeas Corpus" style="height:70px; opacity: 0.3;">
+          <img src="images/fivedays.png" alt="File Habeas Corpus" style="height:70px; opacity: 0.3;">
+          <img src="images/fivedays.png" alt="File Habeas Corpus" style="height:70px; opacity: 0.3;"> 
+ 
+
+          <h3 style="font-size: 30px; text-align: left;padding-top: 20px; color: black">30 days </h3>
 
 
-        <p style="color: grey; text-align: center; margin-top: 20px; margin-bottom:">Court order automatically  gives Immigration and Customs Enforcement <strong style="color: black;">30 days to respond.</strong></p>​
+          <p style="color: grey; text-align: left; margin-top: 20px; margin-bottom:">The court automatically gives the government (ICE) <strong style="color: black;">30 days to respond.</strong></p>​
 
         </div>
       </li>
-
 
 
 
@@ -295,20 +310,31 @@ e.preventDefault();
       
       <div class="center"><img src="images/gov.png" alt="File Habeas Corpus" style="height:100px;"></div>
 
+        <h4 style="margin-bottom: 20px; margin-top: 20px;text-align: center; color: black; font-size: 40px;">Extension</h4>
 
-        <h3 style="margin-top: 20px;text-align: center; text-transform: uppercase;">This is what <u>should</u> happen:</h3>  
-      
-        <p style="text-align: center; color: grey; margin-bottom: 20px;margin-top: 20px;">ICE can ask the courts for a 20 day extension with evidence of good cause.</p>
-      
         <hr style="padding-top: 20px;"> 
 
-        <div class="fullWidth" style=" border: 5px solid yellow; padding: 20px; margin-bottom: 100px;"">
 
-        <h3 style="text-align: center; text-transform: uppercase;"> This is what is happening:</h3>
+        <div class="row">
+          <div class="col-md-6" style="background-color: white;">
+
+          <h3 style="margin-top: 55px;text-align: left; text-transform: uppercase; color: black;">What <u>should</u> happen:</h3> 
+        
+          <p style="text-align: left; color: grey; margin-bottom: 20px;margin-top: 20px;">The court can only give an extension if the government (ICE) shows good cause.</p>
+      
+        </div>
+        <div class="col-md-6" style="background-color: white;">
+
+          <div class="fullWidth" style=" border: 5px solid yellow; padding: 50px; margin-bottom: 100px;"">
 
 
-        <p style="color: grey; text-align: center; margin-top: 20px; margin-bottom:">Court <strong style="color:black;">always</strong> grants an extension.</p>​
+          <h3 style="text-align: left; text-transform: uppercase;color: black;"> What is happening:</h3>
 
+
+          <p style="color: grey; text-align: left; margin-top: 20px; margin-bottom:">The court <strong style="color:black;">always</strong>  grants an extension to the government (ICE).</p>​
+
+        </div>
+        </div>
         </div>
 
 
@@ -326,22 +352,30 @@ e.preventDefault();
         <div class="center" ><img src="images/gov.png" alt="File Habeas Corpus" style="height:100px;"></div>
 
 
-        <h3 style="color: black; text-align: center; margin-top: 20px;text-align: center;">ICE responds to Court order:</h3>
+        <h4 style="margin-bottom: 20px; margin-top: 20px;text-align: center; color: black; font-size: 40px;">Hearing</h4>
 
-        <div class="arrow-down" style="margin-top: 20px;"></div> 
+         <hr style="padding-top: 20px;"> 
 
 
-        <div id="images">
+        <div class="row">
+          <div class="col-md-6" style="background-color: white;">
 
-        <span class="icon"><img src="images/hammer.png" alt="File Habeas Corpus" style="height:100px;"><p style="text-align: center;">Moot</p></span>
-      <!--   <p>ICE takes many of the immigrants out of the prison before the Court can decide</p> -->
+          <h3 style="margin-top: 55px;text-align: left; text-transform: uppercase; color: black;">What <u>should</u> happen:</h3> 
+        
+          <p style="text-align: left; color: grey; margin-bottom: 20px;margin-top: 20px;">The court orders a hearing.</p>
 
-        <span class="icon"><h3 style="margin-left: 70px; margin-right: 50px;">- or -</h3></span>
+          </div>
+          <div class="col-md-6" style="background-color: white;">
 
-        <span class="icon"><img src="images/Doc.png" alt="File Habeas Corpus" style="height:100px; margin-left: 30px;"><p style="text-align: center; margin-left: 30px;">File a Justification</p></span>
+            <div class="fullWidth" style=" border: 5px solid yellow; padding: 50px; margin-bottom: 100px;"">
 
+            <h3 style="text-align: left; text-transform: uppercase;color: black;"> What is happening:</h3>
+
+
+            <p style="color: grey; text-align: left; margin-top: 20px; margin-bottom:">The court has not granted a single hearing.</p>​
+            </div>
+          </div>
         </div>
-
         
       </li>
 
@@ -351,25 +385,36 @@ e.preventDefault();
 <!-- 5 File Justification -->
 
       <li data-date="30/07/2014">
-        <div class="center"><img src="images/Doc.png" alt="File Habeas Corpus" style="height:100px;"></div>
-
-        <h3 style="margin-top: 20px;text-align: center; text-transform: uppercase;">This is what <u>should</u> happen:</h3>  
-      
-        <p style="text-align: center; color: grey; margin-bottom: 20px;margin-top: 20px;">Hearing is ordered</p>
-      
-        <hr style="padding-top: 20px;"> 
-
-        <div class="fullWidth" style=" border: 5px solid yellow; padding: 20px; margin-bottom: 100px;">
-
-        <h3 style="text-align: center; text-transform: uppercase;"> This is what is happening:</h3>
+        <div class="center" ><img src="images/gov.png" alt="File Habeas Corpus" style="height:100px;"></div>
 
 
-        <h3 style="color: grey; text-align: center; margin-top: 20px; margin-bottom:"><u style="font-size: 50px">99%</u> of the time the court fails to order a hearing.</h3>​
+        <h4 style="margin-bottom: 20px; margin-top: 20px;text-align: center; color: black; font-size: 40px;">Denial</h4>
+
+         <hr style="padding-top: 20px;"> 
+
+
+        <div class="row">
+          <div class="col-md-6" style="background-color: white;">
+
+            <h3 style="margin-top: 55px;text-align: left; text-transform: uppercase; color: black;">What <u>should</u> happen:</h3> 
+          
+            <p style="text-align: left; color: grey; margin-bottom: 20px;margin-top: 20px;">The court examined the justification and orders release where detention is unlawful where detention is unlawful because the government has not justified further detention.</p>
 
         </div>
 
-      </li>
+          <div class="col-md-6" style="background-color: white;">
 
+            <div class="fullWidth" style=" border: 5px solid yellow; padding: 50px; margin-bottom: 100px;"">
+
+            <h3 style="text-align: left; text-transform: uppercase;color: black;"> What is happening:</h3>
+
+
+            <p style="color: grey; text-align: left; margin-top: 20px; margin-bottom:">Out of more than the 240 habeas petitions filed the Northern District has not granted a single Habeas corpus petition since 2010.</p>​
+            </div>
+          </div>
+        </div>
+
+      </li>
 
 
 
@@ -378,21 +423,25 @@ e.preventDefault();
       <li data-date="30/09/2014">
         <div class="center"><img src="images/Doc.png" alt="File Habeas Corpus" style="height:100px;"></div>
 
+         <h4 style="margin-bottom: 20px; margin-top: 20px;text-align: center; color: black; font-size: 40px;">Fact</h4>
 
-        <h3 style="margin-top: 20px;text-align: center; text-transform: uppercase;">This is what <u>should</u> happen:</h3> 
-
-
-        <p style="text-align: center; color: grey; margin-bottom: 20px;margin-top: 20px;">Habeas granted</p>
-      
-        <hr style="padding-top: 20px;"> 
-
-        <div class="fullWidth" style=" border: 5px solid yellow; padding: 20px;">
-
-        <h3 style="text-align: center; text-transform: uppercase;"> This is what is happening:</h3>
+         <hr style="padding-top: 20px;"> 
 
 
-        <h3 style="text-align: center; color: grey; margin-bottom: 20px; font-size: 50px;">No Habeas Corpus has ever been granted in <strong style="color: black;">5 years</strong></h3>
-    
+        <h3 style="text-align: center; color: grey; margin-bottom: 20px; font-size: 50px;">No Habeas Corpus has <u style="text-transform: uppercase">ever</u> been granted in <strong style="color: black;">5 years.</strong></h3>
+
+  <script>
+      function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+      }
+</script>
+
+</li>
+</div>
 </div>
 </li>
 </ol>
@@ -401,20 +450,47 @@ e.preventDefault();
 </div>
 </div>
 </div>
+</ul>
+</div>
+</div>
+</div>
 
-<!-- <div class="fullWidth" style=" height: auto; ">
-  <div class="row">
-  <div class="col-md-12">
 
+
+
+
+
+<!-- Logo section below -->
+
+
+
+<div class="container-fluid c5" style="z-index: 1000; background-color: white; margin-top: 0px;">
+  <div class="row" style="margin-top: -20px;">
   <hr>
+  <div class="col-md-2">
+  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin-left: 30px; margin-top: 20px; width: 150px;"></a>
 
-   <p style=" margin-bottom: -20px; padding-right:850px;"> A report by the Immigrant Rights Clinic at New York University School of Law in partnership with Families for Freedom</p>
+  </div>
 
-   <hr>
+  <div class="col-md-5">
+
+  <p style="margin-left: 30px;">35 West 31th St, #702 New York, NY 10001 <br> p: <a href="tel:1-646-290-8720">646.290.8720</a> hotline: <a href="tel:1-646-290-5551">646.290.5551</a> fax: 800 895 4454<br>e: <a href="mailto:info@familiesforfreedom.org">info@familiesforfreedom.org</a></p>
+
+  </div>
+  <div class="col-md-2">
+  <a href="index.html"><img src="images/NYU.png" alt="NYU" style="margin-top: 20px; width: 200px; margin-left:0px;"></a>
+
+
+  </div>
+
+  <div class="col-md-3" style="padding-left: 60px;">
+  <p>40 Washington Sq. South</br>New York, NY 10012.</p> 
+  </div>
+
   </div>
   </div>
 </div>
- -->
+
 
 
 

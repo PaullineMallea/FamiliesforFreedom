@@ -15,10 +15,6 @@ $(document).ready(function(){
 		  }); 
 
 		});
-	$( "dropdown-menu" ).hoover(function() {
-		  $( ".show" ).show(function() {
-		    // Animation complete.
-		  }); 
 
 	// end of footnote function   ------------------------------------------------
 

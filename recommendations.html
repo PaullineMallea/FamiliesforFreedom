@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,76 +42,40 @@
 </head>
 <body>
 
-<!-- Logo section below -->
+<!--     N A V A G A T I O N  -->
 
-
-<div style="z-index: 1000;">
-  <div class="row" style="">
-  <div class="col-md-4" >
-  <a href="index.html"><img src="images/FFFLogo1.png" alt="Families For Freedom" style="margin: 20px; width: 150px;"></a>
-  </div>
-
-<!-- Logo section ^ above -->
-
-<!-- Menu bar below  -->
-
-    <div class="col-md-5"></div>
-
-    <div class="col-md-3">
-      <div class="dropdown" style="float: right;">
-          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #aaaaaa; border: #aaaaaa; outline: none; margin-top: 20px; margin-right: 40px;">
-
-          <img src="images/nav.png" style="width: 40px;">
-            <span class="caret"></span>
-          </button>
-
-            <ul class="dropdown-menu" aria-labelledby="dLabel" style="margin-left: -100px;">
-
-     <li><a href="about.html"><strong>ABOUT US</strong></a></li>
-
-      <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
-      <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
-      <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
-
-              <li class="dropdown-submenu" class=>
-                <a tabindex="-1" href="#"><strong>REPORTS</strong></a>
-                <ul class="dropdown-menu" style="">
-<!--                   <li><a tabindex="-1" href="#">Second level</a></li>
- -->                    <li><a <a style="padding-left: 40px;" href="court.html">The Court</a></li>
-                    <li><a style="padding-left: 40px;" href="prison.html">The Prison</a></li>
-                    <li><a <a style="padding-left: 40px;" href="vacuum.html">The Vacuum</a></li>
-                    <li><a style="padding-left: 40px;" href="abuse.html">The Abuse</a></li>
-                    <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-                  </ul>
-        </li>
-  
-      <script type="text/javascript">
-      // $('li.expandable').click(function() {
-      //   $(this).children('ul').toggle();
-      //   return false;
-      // });
-
-$(document).ready(function(){
-$('.dropdown-submenu>a').unbind('click').click(function(e){
-$(this).next('ul').toggle();
-e.stopPropagation();
-e.preventDefault();
-});
-});
-      </script>
-
-      <li><a href="Stories.html"><strong>STORIES</strong></a></li>
-      </ul>
-    </div>
-  </div>
+<div class="container-fluid">
+<div class="row" style="background: black;">
+<div class="col-md-12">
+  <ul class="nav">
+    <li><a class="active" href="index.html"><strong>HOME</strong></a></li>
+    <li><a href="about.html"><strong>ABOUT US</strong></a></li>
+    <li><a href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+    <li><a href="methodology.html"><strong>METHODOLOGY</strong></a></li>
+    <li><a href="keyfindings.html"><strong>KEY FINDINGS</strong></a></li>
+    <li><a href="recommendations.html"><strong>RECOMMENDATIONS</strong></a></li>
+    <li class="dropDown">
+      <a href="#" class="dropBtn">REPORT</a>
+      <div class="dropDown-content">
+          <a href="court.html">The Court</a>
+          <a href="prison.html">The Prison</a>
+          <a href="vacuum.html">The Vacuum</a>
+          <a href="abuse.html">The Abuse</a>
+      </div>
+  </li>
+  <li><a href="Stories.html"><strong>STORIES</strong></a></li>
+  </ul>
+</div>
+</div>
 </div>
 
-<!-- Menu bar above ^  -->
+
+<!-- =========================================== -->
 
 <div style=" width: 100%;" class="c5">
   <div class="row">
   <div class="col-md-12">
-      <h4 style="padding-top: 50px; padding-bottom: 50px;">Recommendations</h4>
+      <h4 style="padding-top: 100px; padding-bottom: 50px;">Recommendations</h4>
 
       <hr>
   </div>
@@ -121,7 +86,7 @@ e.preventDefault();
 
 <!-- report -->
 
-<div class="fullWidth c5" style=" width: 100%; margin-top: 30px; background: white;background-image: url(images/prison.jpg);">
+<div class="fullWidth c5" style=" width: 100%; margin-top: 30px; background: white;background-image: url(images/prison.png);">
     <div class="row">
     <div class="col-md-12" style="padding:40px; margin-left: -30px;">
 
@@ -134,7 +99,7 @@ e.preventDefault();
     </div>
     </div>
 
-    <div class="c5" style="background: white; padding:40px;margin-bottom: 40px;">
+    <div class="c5" style="background-color: #f7f8f9;; padding:40px; margin-bottom: 40px;">
     <div class="row">
     <div class="col-md-12" style="padding:0px;">
 
@@ -145,13 +110,15 @@ e.preventDefault();
 </div> 
 
 
-<!--  <!-- slider -->
+<!-- list -->
 
- <div id="scroller" style="margin-top: 40px;">
-  <div class="scrollbox">
-    <div style="background: #5B5F72; padding: 40px; width: 800px;">
 
-    <h3> 1. </h3>
+<div class="row">
+    <div class="col-md-12" style="padding:50px; margin-top: -40px;">
+
+    <div style="background: white; border:4px solid black; padding: 50px;">
+
+    <h4> 1. </h4>
 
     <hr>
 
@@ -164,42 +131,45 @@ e.preventDefault();
             <li>When a detainee alleges that ICE has procured fraudulent travel documents.</li>
 
             </ol> -->
-
-    </div>
-
-
-    <div style="background: #5B5F72; padding: 40px; width: 500px;">
-
     
 
-    <h3 style="margin-top:80px; font-size: 20px;">A. When there are factual disputes regarding the likelihood of travel documents being issued;</h3>
+    <h3 style="margin-top:40px; padding-left: 50px; font-size: 20px;">A. When there are factual disputes regarding the likelihood of travel documents being issued;</h3>
 
 
-    <h3 style="font-size: 20px;">B. When ICE alleges that a detainee is failing to comply;</b> 
+    <h3 style="font-size: 20px; padding-left: 50px;">B. When ICE alleges that a detainee is failing to comply;</h3>
           
 
-    <h3 style="font-size: 20px;">C. When a detainee alleges that ICE has procured fraudulent travel documents.</h3>
+    <h3 style="font-size: 20px; padding-left: 50px;">C. When a detainee alleges that ICE has procured fraudulent travel documents.</h3>
 
 
     </div>
 
+   </div>
 
 
+  <!-- row 2 -->
 
-    <div style="background: #6D7181; padding: 40px; width: 500px;">
+  <div class="row" style="margin-left: -20px; margin-right: -10px;" >
+  <div class="col-md-6" style="padding-left: 50px; padding-right:-40px;">
 
-    <h3> 2. </h3>
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:20px margin-top:20px; height: 500px;">
+
+    <h4> 2. </h4>
 
     <hr>
     
     <h3>The Court should only grant extensions to the government when it has shown good cause. Habeas corpus cases challenge unlawful deprivation of liberty; therefore it is crucial that courts expedite review of the legality of the person’s ongoing detainment.</h3>
 
     </div>
+  </div>
+
+  <div class="col-md-6" style="padding:0px 50px 50px 0px;">
 
 
-    <div style=" background: #808390; padding: 40px; width: 500px;">
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:0px margin-top:20px; height: 500px;">
 
-     <h3> 3. </h3>
+    <h4>3.</h4>
 
      <hr>
     
@@ -208,23 +178,33 @@ e.preventDefault();
 
     </div>
 
-
-
-    <div style="background: #9395A0; padding: 40px; width: 500px;">
-
-     <h3> 4. </h3>
-
-     <hr>
-    
-    <h3>The Court should require ICE to provide detailed information as to attempts to secure travel documents (embassy contact attempts, letters, interviews, etc.).</h3>
-     
+    </div>
 
     </div>
 
+<!-- row 3 -->
 
-    <div style=" background: #A5A7AF; padding: 40px; width: 800px;">
+ <div class="row" style="margin-left: -20px; margin-right: -10px;" >
+  <div class="col-md-6" style="padding-left: 50px; padding-right:-40px;">
 
-     <h3> 5. </h3>
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:20px margin-top:20px; height: 600px;">
+
+    <h4> 4. </h4>
+
+    <hr>
+    
+    <h3>The Court should require ICE to provide detailed information as to attempts to secure travel documents (embassy contact attempts, letters, interviews, etc.).</h3>
+
+    </div>
+  </div>
+
+  <div class="col-md-6" style="padding:0px 50px 50px 0px;">
+
+
+   <div style="background: white; border:4px solid black; padding: 50px;margin-left: 20px; margin-right:0px margin-top:20px; height: 600px;">
+
+    <h4> 5. </h4>
 
      <hr>
     
@@ -233,21 +213,27 @@ e.preventDefault();
 
     </div>
 
-    <div style="background: #B8B9BF; padding: 40px; width: 800px;">
-
-     <h3> 6. </h3>
-
-     <hr>
-    
-    <h3>The Court should publish case law prohibiting ICE from submitting stock language as evidence that a detainee’s removal is reasonably foreseeable. The likelihood of travel document issuance turns on highly individualized factors and the Court should require specific evidence.. The fact that ICE has previously been able to remove other detainees to a country is not sufficient evidence that ICE will be able to remove a current detainee to that country.</h3>
-     
+    </div>
 
     </div>
 
-</div>
 
-</div>
+<!-- row 4 -->
 
+<div class="row">
+    <div class="col-md-12" style="padding:0px 50px 50px 50px; margin-left:10px; width: 1320px; height: 600px;">
+
+    <div style="background: white; border:4px solid black; padding: 50px; margin-right: -10px;">
+
+    <h4> 6. </h4>
+
+     <hr>
+    
+    <h3>The Court should publish case law prohibiting ICE from submitting stock language as evidence that a detainee’s removal is reasonably foreseeable. The likelihood of travel document issuance turns on highly individualized factors and the Court should require specific evidence. The fact that ICE has previously been able to remove other detainees to a country is not sufficient evidence that ICE will be able to remove a current detainee to that country.</h3>
+
+  </div>
+  </div>
+  </div>
 
 </body>
 </html>
