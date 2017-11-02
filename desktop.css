@@ -1,5 +1,79 @@
-body{
-	background: 		#aaaaaa;
+body {
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+/*    border: 2px solid red;
+*/}
+
+
+.fit {
+
+padding:                  20px;
+height:                   100%;
+}
+
+.fit1{
+  padding-top: 50px;
+}
+
+.infographic {
+  background: #f7f8f9; 
+  position: relative;
+  width: auto;
+  height: 100%;
+  padding-top: 50px;
+
+}
+
+.space {
+  margin: 0px;
+}
+
+
+#BG{
+    width: 100%;
+    height: auto;
+    background-image: url('images/JusticeG.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px
+    margin-top: 0px;
+    background-attachment:fixed;
+    background-color: white;
+}
+/*.title2 span{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding:          10px;*/
+
+
+}
+/*
+.title2 {
+  margin-bottom: 20px;
+}
+*/
+#title3 {
+text-align:       left; 
+text-shadow:      4px 2px #C6C8CA; 
+color:          black; 
+font-size:        50px; 
+text-align:       center;
+padding-bottom:     20px;
+color:              #475fca;
+
+}
+
+.subtitle {
+  font-size: 20px; 
+  text-align: left; 
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+
+
 
 }
 
@@ -18,14 +92,39 @@ button {
    margin-left: auto;
    margin-right: auto;
    max-width: initial;
+
+
 }
 
 
-.image { 
-   position: 			relative;
-   margin-right: 	50%;
-   display: 			block;
-   margin: 				0;
+
+
+
+#box3 {
+border: 5px solid #475fca;
+background-color: white;
+padding: 50px;
+width: 92.5%;
+height: auto;
+opacity: .7;
+margin: 50px;
+
+}
+
+
+div #box3 {
+
+  border: 5px solid #475fca;
+  
+
+
+}
+
+
+
+
+.shift {
+  margin-left: -4px;
 }
 
 h1 {
@@ -57,7 +156,7 @@ h2 {
 
 h4 {
   font-family:        'Oswald', sans-serif;  font-size:        100px;
-  color:            black;
+  color:            #475fca;
   text-align:       center;
   letter-spacing:   4px;
   position:         relative;
@@ -104,37 +203,32 @@ h4 {
     color:          black;
     margin-left:     15px;
 
-}
-
-.c2{
-  padding-left:     45px;
-  padding-right:    45px;
-  font-family:      'Roboto', sans-serif;
-
 
 
 }
 
+.TC {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
 
-.c2 h3 {
+
+.fit h4 {
   font-family:    'Oswald', sans-serif;
-  font-size:      20px;
+  font-size:      30px;
   text-align:     left;
-  margin-top:     0px;
-  letter-spacing: 2px;
-  padding:        20px 0px 5px 20px;
-  color:          black;
-
-
+  padding-top:    20px; 
+  padding-left:   5px;
 }
 
-.c2 p {
+.events-content p {
   font-family: 'Roboto', sans-serif;
 
 	font-size: 			15px;
 	margin-top: 		0px;
   letter-spacing: 1px;
-  padding:        0px 20px 20px 20px;
+  padding:        0px 5px 5px 5px;
   color:          black;
 
 
@@ -142,7 +236,7 @@ h4 {
 }
 
 .c4 h3{
-  font-family:        'Oswald', sans-serif;
+  font-family:    'Oswald', sans-serif;
   font-size:      20px;
   text-align:     left;
   margin-top:     0px;
@@ -156,7 +250,7 @@ h4 {
   text-align:     left;
   margin-top:     0px;
   letter-spacing: 2px;
-  color:          white;
+  color:          black;
   
 }
 
@@ -218,8 +312,6 @@ h4 {
 }*/
 
 .c5{
-  padding-right: 40px;
-  padding-left:  40px;
 
 }
 
@@ -243,9 +335,9 @@ h6{
 .c5 p {
   margin-top:     20px; 
   font-family: 'Roboto', sans-serif;
-  font-size:      15px;
+  font-size:      17px;
   text-align:     left;
-  line-height:    20px;
+  line-height:    25px;
 }
 
 #justify p {
@@ -327,17 +419,6 @@ font-family: 'Roboto', sans-serif;
   text-decoration-color: yellow;
 }
 
-.footnote {
-  display:        none;
-  background:     grey;
-  color:          white;
-font-family: 'Roboto', sans-serif;
-  font-size:      15px;
-  padding:        10px;
-  text-align:     left;
-
-
-}
 
 .show li {
   display: none;
@@ -664,7 +745,8 @@ font-family: 'Roboto', sans-serif;
   color: white;
 
 }
-.scrollbox div {
+.scro
+llbox div {
   float: left;
   width: 180px;
   height: 400px;
@@ -705,6 +787,26 @@ html {
 a {
   color: #251942;
   text-decoration: none;
+}
+
+
+div .hunderedH {
+  height: 100px;
+}
+
+.c1 #hundredpx {
+  padding-left: 100px;
+
+}
+
+.quote {
+  font-size:              45px; 
+  padding:                40px; 
+  color:                  white; 
+  /*padding-left: 40px; 
+  padding-right: 20px; 
+  text-align: center;
+*/
 }
 
 /* -------------------------------- 
@@ -1191,10 +1293,52 @@ span.line_wrap:hover span.line {
 }
 
 
+.title4 {
+  margin-top: 50px;
+  text-align: center; 
+  color: black; 
+  font-size: 60px;
+  padding-top: 100px; 
+  padding-bottom: 50px
+
+} 
 
 
 
-/*end of timeline styling*/
+
+.c5 .title4 {
+  margin-bottom: 20px; 
+  margin-top: 20px;
+  text-align: center; 
+  color: #475FCA; 
+  font-size: 100px;
+  padding-top: 20px; 
+  padding-bottom: 0px;
+
+}
+
+#FFF {
+
+  font-size: 12px;
+  padding-left:  50px;
+
+
+}
+
+/*into page*/
+
+.fit3 {
+  background: #f7f8f9; 
+  margin-left: 40px; 
+  margin-right:  40px;
+}
+
+
+/* Introduction page */
+
+
+
+
 
 
 /* http://www.color-hex.com/color-palette/22754  and http://www.color-hex.com/color-palette/5454*/

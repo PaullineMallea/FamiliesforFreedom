@@ -1,0 +1,362 @@
+body {
+    margin: auto;
+    height: 100%
+    width: auto;
+/*    border: 2px solid green;
+*/}
+
+#box3 {
+border: 5px solid #475fca;
+background-color: white;
+padding: 50px;
+width: 94%;
+height: auto;
+opacity: .7;
+margin: 30px;
+width: 92.5%;
+
+
+}
+
+#BG{
+    width: 100%;
+    height: auto;
+    background-image: url('images/JusticeG.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-attachment:fixed;
+}
+
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:-60px;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+/*  box-shadow:0px 0px 5px 0px #333;
+*/}
+
+
+div #box3 {
+
+  border: 5px solid #475fca;
+
+
+
+}
+
+
+.TC {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
+.move {
+  text-align: center;
+}
+
+#Donate {
+  margin-top: -37px;
+}
+
+#DonateA {
+  margin-top: 0px;
+  color:      black;
+}
+
+#DonateA a:link{
+  color: black;
+}
+
+
+.fit p {
+font-family: 'Roboto', sans-serif;
+font-size: 			15px;
+margin-top: 		0px;
+color:          black;
+
+
+
+
+}
+
+.shift {
+  margin-left: -4px;
+}
+
+.c5 h3{
+  font-family:        'Oswald', sans-serif;
+  font-size:      20px;
+  text-align:     left;
+  margin-top:     0px;
+  letter-spacing: 2px;
+  color:          black;  
+}
+
+.c5 p {
+  margin-top:     0px; 
+  font-family: 'Roboto', sans-serif;
+  font-size:      15px;
+  text-align:     justify;
+  
+}
+
+
+#learnMore {
+	
+	margin-bottom: 20px;
+}
+
+.infographic {
+  background: #f7f8f9; 
+  position: relative;
+  width: auto;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.cd-horizontal-timeline {
+	width: 100%;
+	height: auto;
+  padding-bottom: 50px;
+}
+
+.c2 div{
+  padding: 10px;
+}
+
+.graphic tr{
+  padding-right: 0px;
+  margin-top:  50px;
+
+}
+
+.graphic table {
+  	margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+#title3 {
+text-align:       left; 
+text-shadow:      4px 2px #C6C8CA; 
+color:          black; 
+font-size:        50px; 
+text-align:       center;
+padding-bottom:     20px;
+color:              #475fca;\
+}
+
+.title4 {
+	margin-bottom: 20px; 
+	margin-top: 20px;
+	text-align: center; 
+	color: black; 
+	font-size: 40px;
+  color: black;
+  padding-top: 100px; 
+  padding-bottom: 50px
+
+}
+
+.c5 .title4 {
+  margin-bottom: 20px; 
+  margin-top: 20px;
+  text-align: center; 
+  color: #475FCA; 
+  font-size: 45px;
+  padding-top: 20px; 
+  padding-bottom: 0px;
+
+}
+
+
+
+
+.events-content {
+	width: auto;
+  height: 100%;
+
+
+}
+
+#hundredpx {
+  padding: 40px;
+}
+
+
+/*.title4 {
+  margin-bottom: 20px; 
+  margin-top: 20px;
+  text-align: center; 
+  color: black; 
+  font-size: 40px;
+  color: black
+
+}*/
+
+
+
+.title2 span{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding:          0px;
+
+
+}
+
+.title2 {
+  margin-bottom: 20px;
+}
+
+#title3 {
+text-align:       left; 
+text-shadow:      4px 2px #C6C8CA; 
+color:          black; 
+font-size:        50px; 
+text-align:       center;
+padding-bottom:     20px;
+color:              #475fca;
+}
+
+.fit h4 {
+  font-family:    'Oswald', sans-serif;
+  font-size:      30px;
+  text-align:     left;
+  padding-top:    20px; 
+  padding-left:   20px;
+  color:          black;
+}
+
+.subtitle {
+  font-size: 20px; 
+  text-align: left; 
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+.fit {
+	padding: 50px;
+  margin-bottom: 50px;
+
+
+
+}
+
+.events-content p {
+  font-family: 'Roboto', sans-serif;
+  padding:        0px 5px 5px 5px;
+  text-align: left;
+  color: grey; 
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  font-size: 20px;"
+
+
+}
+
+.c4 h3{
+  font-family:    'Oswald', sans-serif;
+  font-size:      20px;
+  text-align:     left;
+  margin-top:     0px;
+  letter-spacing: 2px;
+  
+}
+
+/*.c5 h3{
+  font-family:        'Oswald', sans-serif;
+  font-size:      20px;
+  text-align:     left;
+  margin-top:     0px;
+  letter-spacing: 2px;
+  color:          white;
+  
+}
+*/
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+/*    border: 1px solid green;
+*/}
+
+
+
+
+#FFF {
+
+  font-size: 12px;
+  padding:  50px;
+
+
+ 
+
+}
+
+
+/* Table of cantents*/
+
+
+.TC {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.TC li {
+  padding-top: 20px;
+  text-decoration: none;
+
+}
+
+.TC li a {
+  color:              #121833;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding:            5px;
+
+}
+
+.TC li a:hover {
+  background-color:   #475FCA ;
+  text-decoration:      none;
+  z-index:              1000;
+  color:              black;
+  padding:            5px;
+
+}
+
+
+/* Intro page*/
+
+.fit3 {
+  background: #f7f8f9; 
+  padding:40px; 
+}
+
+.quote {
+  font-size:              45px; 
+  padding:                40px; 
+  color:                  white; 
+  /*padding-left: 40px; 
+  padding-right: 20px; 
+  text-align: center;
+*/
+}
+
+
+
+
