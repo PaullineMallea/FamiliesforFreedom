@@ -17,7 +17,7 @@ $(document).ready(function(){
 		});
 
 	// end of footnote function   ------------------------------------------------
-
+	
 
 		});
 
